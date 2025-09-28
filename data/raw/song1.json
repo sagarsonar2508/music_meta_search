@@ -1,0 +1,173 @@
+{
+    "Language of song": "Bengali",
+    "Song Title": "Dekhete Dekhete",
+    "Instruments Used": [
+        "Tabla",
+        "Synthesizer",
+        "Strings (Pad)",
+        "Flute",
+        "Bass Guitar",
+        "Drums (Light Percussion)"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Indian Pop",
+            "Filmi",
+            "Bollywood-esque",
+            "Romantic Pop",
+            "Melancholy Pop",
+            "Soft Rock (Indian style)",
+            "Traditional Indian Fusion",
+            "Sufi-influenced",
+            "Contemporary Indian",
+            "Ballad"
+        ],
+        "Mood & Vibe": [
+            "Melancholy",
+            "Nostalgic",
+            "Emotional",
+            "Yearning",
+            "Reflective",
+            "Sentimental",
+            "Dreamy",
+            "Heartfelt",
+            "Poignant",
+            "Somber"
+        ],
+        "Instrumentation": [
+            "Lush Strings",
+            "Sustained Synthesizer Pads",
+            "Percussion-driven",
+            "Lead Flute Melody",
+            "Rhythmic Tabla",
+            "Mellow Bassline",
+            "Soft Drums",
+            "Layered Synthesizers",
+            "Acoustic Elements",
+            "Electronic Elements"
+        ],
+        "Vocal Style": [
+            "Smooth Male Vocals",
+            "Emotional Delivery",
+            "Melodic",
+            "Tender",
+            "Expressive",
+            "Slightly husky",
+            "Vibrato (subtle)",
+            "Harmonized Backing Vocals",
+            "Storytelling",
+            "Romantic"
+        ],
+        "Tempo & Rhythm": [
+            "Slow Tempo",
+            "Steady Beat",
+            "Flowing Rhythm",
+            "Mellow Groove",
+            "Relaxed Pace",
+            "Syncopated Percussion (Tabla)",
+            "Driving but not fast",
+            "Hypnotic",
+            "Controlled Energy",
+            "Swelling Dynamics"
+        ],
+        "Themes": [
+            "Lost Love",
+            "Heartbreak",
+            "Reminiscence",
+            "Unfulfilled Desire",
+            "Life's Disappointments",
+            "Longing",
+            "Memories",
+            "Existential Reflection",
+            "Acceptance (of loss)",
+            "The passage of time"
+        ],
+        "Use Case": [
+            "Romantic Drama Soundtrack",
+            "Reflective Montages",
+            "Background Music for Emotional Scenes",
+            "Personal Listening (Relaxation)",
+            "Sad Love Stories",
+            "Travel Documentaries (with emotional undertones)",
+            "Art House Cinema",
+            "Late-night drives",
+            "Wedding Anniversary (bittersweet)",
+            "Poetry Readings"
+        ],
+        "Sound Characteristics": [
+            "Rich Production",
+            "Warm Tones",
+            "Echoey",
+            "Reverberant",
+            "Smooth Mix",
+            "Dynamic Swells",
+            "Clean Vocals",
+            "Ambient Textures",
+            "Full Soundstage",
+            "Clear Instrumentation"
+        ],
+        "Cultural Context": [
+            "Indian Pop Music",
+            "Bengali Music",
+            "Bollywood Romantic Ballad",
+            "South Asian Contemporary",
+            "Cultural Fusion",
+            "Traditional Indian Melodies",
+            "Modern Production Techniques",
+            "Regional Indian Film Music",
+            "Emotional Storytelling through Music",
+            "Contemporary Ghazal (influenced)"
+        ]
+    },
+    "production style": "Polished, lush, and atmospheric, with a clear focus on the vocal performance and a rich, layered instrumental arrangement that balances traditional Indian sounds with modern pop sensibilities. Features prominent use of reverb and delay to create a dreamy, melancholic ambiance.",
+    "edit_pacing": [
+        "slow_build",
+        "smooth_transitions",
+        "emotional_crescendos",
+        "sustained_notes",
+        "gradual_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Lover (Romantic, intimate, passionate)",
+        "The Sage (Reflective, wise, nostalgic)",
+        "The Innocent (Pure, hopeful, slightly melancholic)"
+    ],
+    "Tags based on Lyrics": [
+        "lost love",
+        "broken dreams",
+        "past memories",
+        "unfulfilled desires",
+        "regret",
+        "heartache",
+        "searching for meaning",
+        "disappointment",
+        "endurance of pain",
+        "hopelessness"
+    ],
+    "Entities in Lyrics": [
+        "চোখের শ্রোবণে (eyes' monsoon/rain of tears)",
+        "সব আশো (all hopes)",
+        "তু মি (you - referring to a beloved)",
+        "পৃথিবী আমিোর (my world/earth)",
+        "সই দেখেো (that sight/meeting)",
+        "অধিকোর (right/claim)",
+        "জীবনে (in life)",
+        "অভিমিোনে (grudge/resentment)",
+        "প্রতদেোনে (return/recompense)",
+        "এ জীবনে (this life)"
+    ],
+    "Melody": "There is a very clear and poignant melody, primarily carried by the male vocals and a prominent flute. It is lyrical, flowing, and deeply emotional, often employing long, sustained notes that convey yearning and sadness.",
+    "Harmony": "The harmony is predominantly minor, contributing heavily to the melancholic and nostalgic feel. There are chords that create a rich, slightly dramatic, but ultimately sad atmosphere, with occasional shifts or embellishments that add to the emotional depth without deviating from the overall minor key.",
+    "Rhythm": "The rhythmic feel is steady and measured, driven by a consistent but not overpowering percussion. The tabla provides a gentle, syncopated undercurrent, while the drums offer a soft, almost brushed, beat. It creates a flowing, almost swaying rhythm that allows the melody and emotion to take center stage.",
+    "Approximate BPM": "65-75 BPM",
+    "track-song Key": "D Minor",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely Dm, Am, C, G, F, Bb, Gm, possibly some suspended chords for added emotional resonance. (Actual chords would require specific analysis of the harmony at different points).",
+    "Lyrics In Song": "দেু চোখের শ্রোবণে মিু ছে যোয় সব আশো, দেখেত দেখেত। কী য কী পলোমি, সবই আজ হোরোলোমি, দেখেত দেখেত। ছেলনেো কোনেোদেনেই তু মি য আমিোর, তবু চোখের দেখেোই হলো পৃথিবী আমিোর। হোরয় গেল য সই দেখেোর অধিকোর, দেখেত দেখেত। জীবনের কোছে আর নেই কোনেো অভিমিোনে, চোইনেো য মিনে আর আজ কোনেো প্রতদেোনে। অকোরণে এ জীবনে কনে য কা োদেোনেও, দেখেত দেখেত।",
+    "Full Lyrics In Song": "দেু চোখের শ্রোবণে মিু ছে যোয় সব আশো, দেখেত দেখেত।\nদেু চোখের শ্রোবণে মিু ছে যোয় সব আশো, দেখেত দেখেত।\nকী য কী পলোমি, হো..!\nকী য কী পলোমি, সবই আজ হোরোলোমি,\n দেখেত দেখেত।\nদেু চোখের শ্রোবণে মিু ছে যোয় সব আশো,\n দেখেত দেখেত, দেখেত দেখেত।\n\n ছেলনেো কোনেোদেনেই তু মি য আমিোর,\nতবু চোখের দেখেোই হলো পৃথিবী আমিোর।\n হাো.. ছেলনেো কোনেোদেনেই তু মি য আমিোর,\nতবু চোখের দেখেোই হলো পৃথিবী আমিোর।\nপৃথিবী আমিোর!\nহোরয় গেল য সই দেখেোর অধিকোর,\n দেখেত দেখেত।\nকী য কী পলোমি, সবই আজ হোরোলোমি,\n দেখেত দেখেত।\nদেু চোখের শ্রোবণে মিু ছে যোয় সব আশো,\n দেখেত দেখেত, দেখেত দেখেত।\n\nজীবনের কোছে আর নেই কোনেো অভিমিোনে,\nচোইনেো য মিনে আর আজ কোনেো প ্ রতদেোনে।\n হাো.. জীবনের কোছে আর নেই কোনেো অভিমিোনে,\nচোইনেো য মিনে আর আজ কোনেো প্রতদেোনে।\n কোনেো প্রতদেোনে!\nঅকোরণে এ জীবনে কনে য কা োদেোনেও,\n দেখেত দেখেত।\nকী য কী পলোমি, সবই আজ হোরোলোমি,\n দেখেত দেখেত।\nদেু চোখের শ্রোবণে মিু ছে যোয় সব আশো,\n দেখেত দেখেত, দেখেত দেখেত।"
+}

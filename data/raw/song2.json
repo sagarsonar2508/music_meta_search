@@ -1,0 +1,174 @@
+{
+    "Language of song": "Hindi",
+    "Song Title": "Tum Hi Ho",
+    "Instruments Used": [
+        "Acoustic Guitar",
+        "Cello",
+        "Violin (Strings Section)",
+        "Piano",
+        "Bass Guitar",
+        "Drums (Soft Kit)",
+        "Synthesizer Pad"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Bollywood Ballad",
+            "Romantic Pop",
+            "Filmi",
+            "Soft Rock (Indian style)",
+            "Power Ballad",
+            "Acoustic Pop",
+            "Contemporary Indian",
+            "Melody-driven",
+            "Love Theme",
+            "Waltz-influenced"
+        ],
+        "Mood & Vibe": [
+            "Passionate",
+            "Intimate",
+            "Heartfelt",
+            "Emotional",
+            "Sincere",
+            "Yearning",
+            "Soulful",
+            "Tender",
+            "Dreamy",
+            "Romantic"
+        ],
+        "Instrumentation": [
+            "Prominent Acoustic Guitar",
+            "Lush Strings",
+            "Grand Piano Chords",
+            "Mellow Bassline",
+            "Ambient Synthesizer Pads",
+            "Simple Drum Pattern",
+            "Orchestral Elements",
+            "Sustained Cello",
+            "Clear Production",
+            "Dynamic Vocals"
+        ],
+        "Vocal Style": [
+            "Emotional Male Vocals",
+            "High Register",
+            "Smooth Delivery",
+            "Passionate",
+            "Soulful",
+            "Melodic",
+            "Tender",
+            "Vibrato (Controlled)",
+            "Layered Vocals (Chorus)",
+            "Intense Expression"
+        ],
+        "Tempo & Rhythm": [
+            "Slow Tempo",
+            "3/4 feel (Waltz-like structure)",
+            "Steady Beat",
+            "Flowing Rhythm",
+            "Soft Drums",
+            "Controlled Energy",
+            "Gentle Pulse",
+            "Relaxed Pace",
+            "Dynamic Crescendos",
+            "Simple Time Signature"
+        ],
+        "Themes": [
+            "Undying Love",
+            "Devotion",
+            "The Meaning of Life (through a beloved)",
+            "Intimacy",
+            "Completeness",
+            "Life Partner",
+            "Sacrifice",
+            "Eternal Romance",
+            "The One",
+            "Hope"
+        ],
+        "Use Case": [
+            "Climax of Romantic Film",
+            "First Dance at Wedding",
+            "Proposal Montage",
+            "Background for Emotional Scene",
+            "Personal Listening (Intimate)",
+            "Slow Dance",
+            "Late-night drives",
+            "Valentine's Day",
+            "Cinematic Love Scene",
+            "Romantic Playlist"
+        ],
+        "Sound Characteristics": [
+            "Rich Production",
+            "Warm Tones",
+            "Reverberant Strings",
+            "Clear Vocals",
+            "Full Soundstage",
+            "Acoustic Clarity",
+            "Smooth Mix",
+            "Balanced Dynamics",
+            "Studio Quality",
+            "Ambient Textures"
+        ],
+        "Cultural Context": [
+            "Major Bollywood Hit",
+            "Indian Pop Music",
+            "Contemporary Filmi Song",
+            "South Asian Romance Anthem",
+            "Pan-Indian Popularity",
+            "Modern Orchestration",
+            "Standard for Romantic Ballads",
+            "Youth-focused",
+            "Cultural Phenomenon",
+            "Emotional Storytelling"
+        ]
+    },
+    "production style": "Highly polished, cinematic, and emotional, with a spacious sound. The mix emphasizes the lead vocal and a prominent, often dramatic, string section. The acoustic guitar provides a consistent, intimate foundation, building to large, swelling orchestrations in the chorus, creating a classic power ballad feel.",
+    "edit_pacing": [
+        "smooth_transitions",
+        "emotional_crescendos",
+        "gradual_build",
+        "dramatic_pauses",
+        "sustained_notes"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Lover (Romantic, intimate, passionate)",
+        "The Innocent (Pure, devoted, hopeful)",
+        "The Caregiver (Selfless, comforting)"
+    ],
+    "Tags based on Lyrics": [
+        "you are everything to me",
+        "my life is for you",
+        "love is my only focus",
+        "devotion",
+        "eternal love",
+        "aashiqui (passion)",
+        "living for a beloved",
+        "being complete with someone",
+        "destiny",
+        "hope in love"
+    ],
+    "Entities in Lyrics": [
+        "Tum (You)",
+        "Mera Jahan (My World)",
+        "Aashiqui (Passion/Love)",
+        "Zindagi (Life)",
+        "Chain (Peace/Rest)",
+        "Qaraar (Solace)",
+        "Dil (Heart)",
+        "Khushi (Happiness)",
+        "Gham (Sorrow)",
+        "Har Khushi (Every Happiness)"
+    ],
+    "Melody": "An instantly recognizable and soaring melody. It's built around sustained notes and a relatively narrow, emotional vocal range in the verse, expanding into a dramatic, high-pitched, and lyrical chorus designed for maximum emotional impact and sing-along appeal.",
+    "Harmony": "Major key for a generally positive/romantic feel, but with frequent use of minor chords and passing chords to introduce a sense of yearning and emotional depth. The harmony is rich and supported by lush string arrangements.",
+    "Rhythm": "Predominantly a slow, steady 4/4 or a simple 3/4 waltz rhythm, giving it a classic ballad feel. The drums are soft, often using brushes or a subtle kick/snare pattern, letting the melodic instruments and vocals lead the pulse.",
+    "Approximate BPM": "60-70 BPM",
+    "track-song Key": "G Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely G, C, D, Em, Am, Bm, and some tension-building chords. (Actual chords would require specific analysis of the harmony at different points).",
+    "Lyrics In Song": "Hum tere bin ab reh nahi sakte, tere bina kya wajood mera. Tujhse juda agar ho jaayenge, toh khud hi khud se ho jaayenge judaa. Kyunki tum hi ho, ab tum hi ho. Zindagi ab tum hi ho. Chain bhi, mera dard bhi. Meri aashiqui ab tum hi ho.",
+    "Full Lyrics In Song": "Hum tere bin ab reh nahi sakte, \ntere bina kya wajood mera.\nHum tere bin ab reh nahi sakte,\ntere bina kya wajood mera.\nTujhse juda agar ho jaayenge,\ntoh khud hi khud se ho jaayenge judaa.\nKyunki **tum hi ho**,\n**ab tum hi ho**.\n**Zindagi ab tum hi ho**.\nChain bhi, mera dard bhi.\n**Meri aashiqui ab tum hi ho**."
+}

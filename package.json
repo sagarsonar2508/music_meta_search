@@ -1,0 +1,19 @@
+{
+  "name": "hoopr",
+  "version": "1.0.0",
+  "description": "Music Metadata Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagar Sonar",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.1.1",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "pug": "^3.0.3"
+  }
+}

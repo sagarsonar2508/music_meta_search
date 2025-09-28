@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Search</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; }
+    input { padding: 0.5rem; }
+    button { padding: 0.5rem 1rem; margin-left: 0.5rem; }
+    .result { margin: 1rem 0; padding: 1rem; border-bottom: 1px solid #ccc; }
+    h3 { margin: 0; }
+  </style>
+</head>
+<body>
+  <h1>Search</h1>
+  <form action="/search" method="get">
+    <input type="text" name="q" value="<%= q %>" placeholder="Search songs...">
+    <button type="submit">Search</button>
+  </form>
+
+  <% if (results.length) { %>
+    <p><%= total %> results found</p>
+    <% results.forEach(r => { %>
+      <div class="result">
+        <h3><%= r._source.title || "Untitled" %></h3>
+
+        <% if (r.highlight && r.highlight.lyrics) { %>
+          <p><%- r.highlight.lyrics.join(" ... ") %></p>
+        <% } else { %>
+          <p><%= r._source.lyrics ? r._source.lyrics.slice(0,120) + "..." : "(no lyrics)" %></p>
+        <% } %>
+      </div>
+    <% }) %>
+  <% } else { %>
+    <p>No results found</p>
+  <% } %>
+</body>
+</html>

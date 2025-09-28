@@ -1,0 +1,174 @@
+{
+    "Language of song": "Hindi",
+    "Song Title": "Kabira (Encore)",
+    "Instruments Used": [
+        "Acoustic Guitar",
+        "Djembe/Cajon (Percussion)",
+        "Flute (Bansuri)",
+        "Ukelele/Mandolin (Riff)",
+        "Strings (Subtle Pads)",
+        "Bass Guitar",
+        "Snaps/Claps"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Folk-Pop",
+            "Travel Pop",
+            "Acoustic Pop",
+            "Indian Folk Fusion",
+            "Road Trip Music",
+            "Uplifting Melancholy",
+            "Filmi",
+            "Contemporary Indian",
+            "Meditative Pop",
+            "Indie/Lo-Fi Bollywood"
+        ],
+        "Mood & Vibe": [
+            "Wanderlust",
+            "Reflective",
+            "Calm",
+            "Bittersweet",
+            "Free-spirited",
+            "Pensive",
+            "Hopeful",
+            "Serene",
+            "Nostalgic",
+            "Inspirational"
+        ],
+        "Instrumentation": [
+            "Prominent Acoustic Guitar",
+            "Light Hand Percussion",
+            "Lead Flute Melody",
+            "Simple Bassline",
+            "Minimalist Drums",
+            "Fingerpicked Rhythms",
+            "Ambient Strings Pad",
+            "Warm Tones",
+            "Organic Sound",
+            "Clean Production"
+        ],
+        "Vocal Style": [
+            "Mellow Male Vocals",
+            "Smooth Delivery",
+            "Gentle",
+            "Melodic",
+            "Intimate",
+            "Conversational Tone",
+            "Unadorned",
+            "Harmonized Backing Vocals",
+            "Storytelling",
+            "Soothing"
+        ],
+        "Tempo & Rhythm": [
+            "Mid-Tempo",
+            "Steady Acoustic Groove",
+            "Breezy Rhythm",
+            "Driving but relaxed",
+            "Consistent Pulse",
+            "Simple Percussion Pattern",
+            "Flowing Feel",
+            "Controlled Energy",
+            "Foot-tapping",
+            "Easy Pace"
+        ],
+        "Themes": [
+            "Journey of Life",
+            "Searching for Self",
+            "Letting Go",
+            "Farewell to a Loved One",
+            "Wanderer/Traveler",
+            "Acceptance",
+            "Reflection on the Past",
+            "Friendship/Love",
+            "The Passage of Time",
+            "Spiritual Quest"
+        ],
+        "Use Case": [
+            "Road Trip Montage",
+            "Travel Vlogs/Documentaries",
+            "Background Music for Cafe/Study",
+            "End of a Journey Scene",
+            "Reflective Personal Listening",
+            "Acoustic Cover Sessions",
+            "Friendship Themed Content",
+            "Chill/Relax Playlist",
+            "Hiking/Nature Videos",
+            "Motivational Videos (Soft)"
+        ],
+        "Sound Characteristics": [
+            "Organic Production",
+            "Warm Acoustic Tones",
+            "Dry Vocals (Intimate)",
+            "Clear Instrumental Separation",
+            "Spacious Sound",
+            "Minimal Reverb",
+            "Balanced Mix",
+            "Clean Guitar Sound",
+            "Airy Flute",
+            "Crisp Percussion"
+        ],
+        "Cultural Context": [
+            "Popular Modern Bollywood Song",
+            "Contemporary Acoustic Scene",
+            "Indian Youth Anthem",
+            "Folk Poet Kabir's Influence",
+            "South Asian Travel Music",
+            "Focus on Simple Storytelling",
+            "Post-2010 Film Music Style",
+            "Crossover Appeal (Global)",
+            "Non-Traditional Film Sound",
+            "Emotional Authenticity"
+        ]
+    },
+    "production style": "Minimalist and organic, focusing on clear acoustic tones. The production feels 'live' and intimate, led by a bright, fingerpicked acoustic guitar and simple hand percussion (djembe/cajon). Subtle string pads create an atmospheric background, ensuring the clear, gentle vocals remain the focal point.",
+    "edit_pacing": [
+        "steady_groove",
+        "gentle_flow",
+        "consistent_rhythm",
+        "acoustic_riff_driven",
+        "slow_to_mid_tempo"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Explorer (Wanderer, free-spirited, journey)",
+        "The Sage (Philosophical, calm)",
+        "The Innocent (Pure, hopeful)"
+    ],
+    "Tags based on Lyrics": [
+        "wanderer (kabira)",
+        "letting go of bonds",
+        "traveler",
+        "detachment",
+        "searching",
+        "life's path",
+        "goodbye",
+        "reflection on relationships",
+        "finding peace",
+        "moving forward"
+    ],
+    "Entities in Lyrics": [
+        "Kabira (Poet/Wanderer)",
+        "Man (Mind/Heart)",
+        "Khel (Game)",
+        "Bandheya (Bound/Tied)",
+        "Rasta (Path)",
+        "Dagar (Road)",
+        "Nadiya (River)",
+        "Bahta (Flowing)",
+        "Pardesi (Foreigner/Stranger)",
+        "Dhuaan (Smoke/Vapor)"
+    ],
+    "Melody": "A smooth, flowing melody with a folk sensibility. It's highly lyrical and memorable, carried primarily by the voice and a counter-melody played on the flute. The structure is cyclical and comforting, perfect for its 'journey' theme.",
+    "Harmony": "Major key, giving it a generally optimistic and pleasant sound, but using minor chords effectively to introduce a fleeting sense of melancholy and contemplation, aligning with the bittersweet theme of farewell.",
+    "Rhythm": "A steady, easy-going mid-tempo rhythm in 4/4, driven by a simple acoustic guitar strumming and a crisp, light percussion (djembe or cajon). It has an inherent, natural swing that is very 'road-trip' friendly.",
+    "Approximate BPM": "90-100 BPM",
+    "track-song Key": "A Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely A, E, F#m, D. (Actual chords would require specific analysis of the harmony at different points).",
+    "Lyrics In Song": "Balam beeti jaaye, umar beeti jaaye. Koi roke na, toke na, mod doon main raasta. **Kabira** maan ja, **bhaag** na tu **duniya** se. **Kabira** maan ja, tu hi **raah** aur tu hi **dagar**.",
+    "Full Lyrics In Song": "Balam beeti jaaye, umar beeti jaaye.\nKoi roke na, toke na, mod doon main raasta.\n**Kabira** maan ja, **bhaag** na tu **duniya** se.\n**Kabira** maan ja, tu hi **raah** aur tu hi **dagar**.\n\nKaisa tera khuda, kaisa tera **rab**?\nDil ke aangan mein hai sab.\n**Kabira** maan ja, tu hi **raah** aur tu hi **dagar**."
+}

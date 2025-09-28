@@ -1,0 +1,174 @@
+{
+    "Language of song": "English",
+    "Song Title": "Hallelujah (Acoustic/String Arrangement)",
+    "Instruments Used": [
+        "Acoustic Guitar (Fingerpicked)",
+        "Cello (Lead and Harmony)",
+        "Violin/Viola (Strings Pad)",
+        "Contrabass (Acoustic Bass)",
+        "Grand Piano (Minimal Chords)",
+        "Snare Drum (Brushed/Subtle)",
+        "Subtle Organ Pad"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Acoustic Ballad",
+            "Folk Rock",
+            "Art Song/Chamber Pop",
+            "Melancholy Folk",
+            "Poetic Pop",
+            "Introspective Singer-Songwriter",
+            "Cover/Standard",
+            "Slow Tempo Rock",
+            "Wistful Ballad",
+            "Gospel/Hymn-influenced"
+        ],
+        "Mood & Vibe": [
+            "Poignant",
+            "Somber",
+            "Contemplative",
+            "Spiritual",
+            "Emotional",
+            "Solemn",
+            "Meditative",
+            "Heartfelt",
+            "Resigned",
+            "Transcendent"
+        ],
+        "Instrumentation": [
+            "Intimate Acoustic Guitar",
+            "Haunting Cello Melody",
+            "Sustained Strings",
+            "Acoustic Bassline",
+            "Minimalist Piano",
+            "Brushed Percussion",
+            "Orchestral Undercurrent",
+            "Warm and Dark Tones",
+            "Clean Acoustic Sound",
+            "Simple Arrangement"
+        ],
+        "Vocal Style": [
+            "Deep Male Vocals (Baritone)",
+            "Gravelly/Aged Tone",
+            "Intimate Delivery",
+            "Sincere",
+            "Narrative/Storytelling",
+            "Restrained Power",
+            "Melodic but Spoken-like",
+            "Emotional Depth",
+            "Direct and Clear",
+            "Meditative"
+        ],
+        "Tempo & Rhythm": [
+            "Very Slow Tempo",
+            "Minimal Rhythm",
+            "Lyrically Guided",
+            "Relaxed Pace",
+            "Flowing Feel (Guitar)",
+            "Subtle Pulse",
+            "Unstressed",
+            "Meditative Timing",
+            "Swelling Dynamics (Strings)",
+            "Simple Time Signature"
+        ],
+        "Themes": [
+            "Faith and Doubt",
+            "Love and Loss",
+            "Broken Relationships",
+            "Spiritual Quest",
+            "Human Flaws",
+            "The Power of Music",
+            "Confession",
+            "Acceptance",
+            "Redemption",
+            "Ambiguity of Emotion"
+        ],
+        "Use Case": [
+            "Emotional Climax in Film/TV",
+            "Funeral/Memorial Services",
+            "Montage of Loss and Reflection",
+            "Art House Cinema",
+            "Personal Listening (Deep Reflection)",
+            "Acoustic Concert Settings",
+            "Poetry/Monologue Background",
+            "Late-night Listening",
+            "Documentary Soundtrack",
+            "Religious/Spiritual Scenes"
+        ],
+        "Sound Characteristics": [
+            "Intimate Production",
+            "Warm, Dark Tones",
+            "Rich Reverb",
+            "Clear, Forward Vocals",
+            "Spacious Soundstage",
+            "Acoustic Clarity",
+            "Smooth Instrumental Blend",
+            "Somber Timbre",
+            "Dynamic Contrast",
+            "Emotional Resonance"
+        ],
+        "Cultural Context": [
+            "Modern Classic/Standard",
+            "Global Pop Culture Reference",
+            "Highly Covered Song",
+            "Singer-Songwriter Tradition",
+            "Western Folk-Rock Canon",
+            "Poetic Lyricism",
+            "Cross-Genre Appeal",
+            "Often Used in Media",
+            "Emotional Depth Over Commercialism",
+            "Acoustic Performance Focus"
+        ]
+    },
+    "production style": "Intimate and profoundly acoustic. The production is sparse, focusing on the warmth of the fingerpicked guitar and the weight of the cello. Heavy use of natural-sounding reverb creates a solemn, church-like space, giving prominence to the raw, emotional texture of the vocal performance.",
+    "edit_pacing": [
+        "extremely_slow",
+        "deliberate_pauses",
+        "sustained_notes",
+        "smooth_instrument_entry",
+        "gradual_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "philosophical_lyricism"
+    ],
+    "brand archetype": [
+        "The Sage (Philosophical, contemplative, wise)",
+        "The Innocent (Spiritual, seeking connection)",
+        "The Magician (Transformative, transcendent)"
+    ],
+    "Tags based on Lyrics": [
+        "hallelujah",
+        "sacred and broken",
+        "cold and broken",
+        "secret chord",
+        "love is not a victory march",
+        "light of the moon",
+        "king david",
+        "baffled king",
+        "faith",
+        "doubt"
+    ],
+    "Entities in Lyrics": [
+        "Hallelujah",
+        "Lord",
+        "David (King)",
+        "Baffled King",
+        "Secret Chord",
+        "Moonlight",
+        "Bath",
+        "Love",
+        "Faith",
+        "Cold and Broken"
+    ],
+    "Melody": "A simple, almost chant-like melody that is instantly memorable and highly flexible for interpretation. It relies on small, repeated melodic phrases that build an emotional resonance, often climaxing on the high notes of the 'Hallelujah' refrain.",
+    "Harmony": "Built around a famous, moving, and cyclical chord progression that expertly moves between major and minor keys. The use of the fourth chord (IV) and the subtle shifts create a powerful sense of longing and melancholic spirituality.",
+    "Rhythm": "Very slow and loose, often determined by the lyrical delivery rather than a rigid beat. The acoustic guitar provides a consistent, flowing arpeggiated rhythm, while percussion is minimal, often just a subtle brush on a snare drum or an underlying bass pulse.",
+    "Approximate BPM": "50-60 BPM",
+    "track-song Key": "C Major (often in a modal variation)",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely C, Am, F, G, Em. (Actual chords would require specific analysis of the harmony at different points).",
+    "Lyrics In Song": "I heard there was a secret chord, that David played and it pleased the Lord, but you don't really care for music, do you? It goes like this: the fourth, the fifth, the minor fall, the major lift. The baffled king composing **Hallelujah**.",
+    "Full Lyrics In Song": "I heard there was a secret chord,\nthat David played and it pleased the Lord,\nbut you don't really care for music, do you?\nIt goes like this: the fourth, the fifth,\nthe minor fall, the major lift.\nThe baffled king composing **Hallelujah**.\n**Hallelujah, Hallelujah, Hallelujah, Hallelujah**."
+}

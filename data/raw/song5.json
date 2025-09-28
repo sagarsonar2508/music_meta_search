@@ -1,0 +1,174 @@
+{
+    "Language of song": "Marathi",
+    "Song Title": "Jeev Rangala",
+    "Instruments Used": [
+        "Dholki/Tabla (Percussion)",
+        "Violin (Lead Melody)",
+        "Synthesizer (Pads/Lead)",
+        "Acoustic Guitar",
+        "Bass Guitar",
+        "Harmonium (Subtle Pad)",
+        "Flute/Shehnai (Ornamentation)"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Marathi Film Pop",
+            "Romantic Folk Fusion",
+            "Lavani-influenced Rhythm",
+            "Contemporary Indian",
+            "Celebratory Pop",
+            "Mellow Romantic",
+            "Upbeat Ballad",
+            "Lyrical Pop",
+            "Traditional Rhythmic",
+            "Modern Marathi Music"
+        ],
+        "Mood & Vibe": [
+            "Joyful",
+            "Celebratory",
+            "Romantic",
+            "Exuberant (Controlled)",
+            "Warm",
+            "Heartfelt",
+            "Affectionate",
+            "Uplifting",
+            "Mellow Excitement",
+            "Flirtatious"
+        ],
+        "Instrumentation": [
+            "Driving Dholki/Tabla Rhythms",
+            "Soaring Violin Melody",
+            "Lush Synthesizer Pads",
+            "Acoustic Guitar Strums",
+            "Melodic Bassline",
+            "Traditional Indian Percussion",
+            "Layered Orchestration",
+            "Sustained Tones",
+            "Clear Production",
+            "Folk-Pop Blend"
+        ],
+        "Vocal Style": [
+            "Smooth Male Vocals",
+            "Clear Female Vocals (Duet)",
+            "Melodic",
+            "Tender and Sincere",
+            "Controlled Energy",
+            "High Pitched (Female)",
+            "Harmonized Duet",
+            "Expressive",
+            "Lyrical Focus",
+            "Romantic Tone"
+        ],
+        "Tempo & Rhythm": [
+            "Mid-Tempo",
+            "Driving Beat (Dholki)",
+            "Steady Pulse",
+            "Flowing Rhythm",
+            "Traditional Marathi 'Taal'",
+            "Energetic but not fast",
+            "Syncopated Percussion",
+            "Controlled Groove",
+            "Danceable (Subtle)",
+            "Consistent Pace"
+        ],
+        "Themes": [
+            "Falling in Love",
+            "New Beginnings",
+            "Celebration of Love",
+            "Life's Joy",
+            "Affection",
+            "Shared Destiny",
+            "Happiness",
+            "Eternal Bond",
+            "Excitement in Love",
+            "The Color of Life (Rangala)"
+        ],
+        "Use Case": [
+            "Wedding Sangeet/Reception",
+            "Romantic Dance Sequence (Film)",
+            "Celebratory Montage",
+            "Indian Festival Background",
+            "Regional Marathi Film Soundtrack",
+            "Family Gatherings",
+            "Driving (Joyful)",
+            "Cultural Event Background",
+            "Romantic Playlist (Upbeat)",
+            "Travel Videos (Maha-focused)"
+        ],
+        "Sound Characteristics": [
+            "Rich Production",
+            "Warm and Bright Tones",
+            "Clear Vocals",
+            "Dynamic Mix",
+            "Full Soundstage",
+            "Acoustic and Electronic Blend",
+            "Clean Instrumental Separation",
+            "Melodic Depth",
+            "Polished and Uplifting",
+            "Vibrant Energy"
+        ],
+        "Cultural Context": [
+            "Major Marathi Film Hit",
+            "Contemporary Marathi Pop",
+            "Popular Regional Film Music",
+            "Maharashtra's Cultural Sound",
+            "Folk Rhythmic Influence (Dholki)",
+            "Modern Orchestration",
+            "Youth Appeal",
+            "Successful Fusion Track",
+            "Celebrated Duet",
+            "Emotional Connection"
+        ]
+    },
+    "production style": "Vibrant and clear, a perfect marriage of modern pop production with strong traditional Marathi rhythms, primarily the dholki/tabla. The mix is bright, allowing the lead violin and clean synth pads to create a soaring, joyful, and slightly dramatic atmosphere suitable for a grand, romantic film scene.",
+    "edit_pacing": [
+        "rhythm_driven_flow",
+        "melodic_interludes",
+        "steady_groove",
+        "smooth_transitions",
+        "controlled_crescendos"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "culturally_appropriate"
+    ],
+    "brand archetype": [
+        "The Lover (Joyful, intimate, passionate)",
+        "The Creator (Expressive, artistic)",
+        "The Innocent (Pure, hopeful, happy)"
+    ],
+    "Tags based on Lyrics": [
+        "life is colored (rangala)",
+        "lost in love",
+        "heartbeat",
+        "soul connection",
+        "love's magic",
+        "joyful surrender",
+        "being captivated",
+        "eternal moment",
+        "precious bond",
+        "my love"
+    ],
+    "Entities in Lyrics": [
+        "Jeev (Soul/Heart)",
+        "Rangala (Colored/Immersed)",
+        "Tujhya (Your)",
+        "Mala (Me)",
+        "Tu (You)",
+        "Dhadkan (Heartbeat)",
+        "Swapnat (In a dream)",
+        "Sanj (Evening)",
+        "Aathvan (Memory)",
+        "Pritichi (Of Love)"
+    ],
+    "Melody": "A highly memorable and lyrical melody that has an immediate appeal. It is slightly ornamental in the traditional Indian style but smooth and flowing for a pop sensibility. The verse and chorus are distinct, with the chorus being instantly recognizable and hook-driven.",
+    "Harmony": "Mainly in a major key, conveying happiness and romance. The harmony is rich and predictable in a comforting way, using common pop progressions with occasional modal shifts to ground it in Indian folk tradition.",
+    "Rhythm": "The core rhythm is a lively, mid-tempo 4/4 driven by the Dholki or Tabla, which provides a fast, syncopated, and celebratory pulse. This foundation gives the otherwise melodic track a distinct, danceable energy.",
+    "Approximate BPM": "110-120 BPM",
+    "track-song Key": "C Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely C, G, Am, F, Dm, Em. (Actual chords would require specific analysis of the harmony at different points).",
+    "Lyrics In Song": "Baharun, phulanchya aatun, shaharun, jaaun mi tula. **Jeev rangala** maza **tujhyat**, kashala mi sodu ataa? Swapnant tujhya mi, jagat mi tula, sodun mi jau kashala?",
+    "Full Lyrics In Song": "Baharun, phulanchya aatun, shaharun, jaaun mi tula.\n**Jeev rangala** maza **tujhyat**, kashala mi sodu ataa?\nSwapnant tujhya mi, jagat mi tula,\nsodun mi jau kashala?\n**Jeev rangala** maza **tujhyat**,\nkashala mi sodu ataa."
+}
