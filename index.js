@@ -18,6 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "src/views"));
+app.use('/src', express.static('src'));
 
 // Routes
 app.use("/", searchRouter);

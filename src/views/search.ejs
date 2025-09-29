@@ -1,38 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Music Search</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; }
-    input { padding: 0.5rem; }
-    button { padding: 0.5rem 1rem; margin-left: 0.5rem; }
-    .result { margin: 1rem 0; padding: 1rem; border-bottom: 1px solid #ccc; }
-    h3 { margin: 0; }
+    .result-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    .result-link:hover .result {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .result-link:active .result {
+      transform: scale(0.98);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+    }
+
+
+    :root {
+      --bg: #f5f7f9;
+      --card: #ffffff;
+      --muted: #6c757d;
+      --border: #dee2e6;
+      --primary: #007bff;
+      --radius: 12px;
+      --chip-pad: 0.35rem 0.7rem;
+      --gap: 0.75rem;
+    }
+
+    /* Page */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 1rem;
+      background: var(--bg);
+      color: #333;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 0.75rem 0;
+      font-size: 1.8rem;
+      color: #222;
+    }
+
+    /* Search card */
+    #searchForm {
+      background: var(--card);
+      padding: 1rem;
+      border-radius: var(--radius);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    /* top row (search input + controls) */
+    .top-row {
+      display: flex;
+      gap: var(--gap);
+      align-items: center;
+      margin-bottom: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    .top-row input[type="text"] {
+      flex: 1 1 420px;
+      padding: 0.5rem 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .top-row select,
+    .top-row button {
+      padding: 0.45rem 0.65rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font-size: 0.92rem;
+    }
+
+    .top-row button {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+      cursor: pointer;
+    }
+
+    /* Filters grid: denser than before */
+    .filters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: calc(var(--gap) + 0.25rem);
+      align-items: start;
+    }
+
+    .filter {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 36px;
+    }
+
+    .filter strong {
+      width: 110px;
+      min-width: 90px;
+      font-weight: 600;
+      color: #333;
+      font-size: 0.95rem;
+      display: inline-block;
+    }
+
+    /* chip groups */
+    .chip-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
+    }
+
+    /* compact chip style */
+    .chip-group label {
+      display: inline-block;
+      padding: var(--chip-pad);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: #fbfcfd;
+      cursor: pointer;
+      font-size: 0.88rem;
+      color: #495057;
+      transition: all .14s ease-in-out;
+      white-space: nowrap;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked+label {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04) inset;
+      font-weight: 600;
+    }
+
+    /* BPM + Key compact controls */
+    .compact-controls {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .compact-controls input[type="number"] {
+      width: 72px;
+      padding: 0.38rem 0.45rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+
+    .compact-controls select {
+      padding: 0.4rem 0.5rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #fff;
+      font-size: 0.9rem;
+    }
+
+    /* Result & pagination */
+    .results-info {
+      margin-top: 0.8rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .result {
+      margin: 0.85rem 0;
+      padding: 0.9rem;
+      border-radius: 8px;
+      background: var(--card);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    .result h3 {
+      margin: 0 0 0.35rem 0;
+      font-size: 1rem;
+      color: #1f2937;
+    }
+
+    .result p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .pagination {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.45rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .pagination a {
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      font-size: 0.9rem;
+      color: var(--primary);
+    }
+
+    .pagination a.active {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+      border-color: var(--primary);
+    }
+
+    .pagination a.disabled {
+      color: #9aa0a6;
+      pointer-events: none;
+      background: #f1f3f5;
+      border-color: var(--border);
+    }
+
+    /* smaller screens adjustments */
+    @media (max-width:720px) {
+      .filters-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      }
+
+      .filter strong {
+        width: 100%;
+        margin-bottom: 0.15rem;
+      }
+
+      .top-row input[type="text"] {
+        flex-basis: 100%;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <h1>Search</h1>
-  <form action="/search" method="get">
-    <input type="text" name="q" value="<%= q %>" placeholder="Search songs...">
-    <button type="submit">Search</button>
-  </form>
+  <div class="container">
+    <h1>Search Songs</h1>
 
-  <% if (results.length) { %>
-    <p><%= total %> results found</p>
-    <% results.forEach(r => { %>
-      <div class="result">
-        <h3><%= r._source.title || "Untitled" %></h3>
-
-        <% if (r.highlight && r.highlight.lyrics) { %>
-          <p><%- r.highlight.lyrics.join(" ... ") %></p>
-        <% } else { %>
-          <p><%= r._source.lyrics ? r._source.lyrics.slice(0,120) + "..." : "(no lyrics)" %></p>
-        <% } %>
+    <form id="searchForm" action="/search" method="get" novalidate>
+      <div class="top-row">
+        <input type="text" name="q" value="<%= q %>" placeholder="Search songs, artists, lyrics, tags..."
+          aria-label="Search songs">
+        <select name="size" onchange="this.form.submit()" aria-label="Results per page">
+          <% [5,10,20,50].forEach(s=>{ %>
+            <option value="<%= s %>" <%=s===size ? 'selected' : '' %>><%= s %> per page</option>
+            <% }) %>
+        </select>
+        <button type="submit">Search</button>
       </div>
-    <% }) %>
-  <% } else { %>
-    <p>No results found</p>
-  <% } %>
+
+      <div class="filters-grid">
+        <!-- Language -->
+        <div class="filter">
+          <strong>Language</strong>
+          <div class="chip-group language-filter-group">
+            <% const selectedLanguages=Array.isArray(language) ? language : (language ? [language] : []); %>
+              <% ['English','Hindi','Marathi','Bengali'].forEach(lang=>{ %>
+                <input type="checkbox" name="language" value="<%= lang %>" id="lang-<%= lang %>"
+                  <%=selectedLanguages.includes(lang)?'checked':'' %>>
+                <label for="lang-<%= lang %>">
+                  <%= lang %>
+                </label>
+                <% }) %>
+          </div>
+        </div>
+
+        <!-- Instruments -->
+        <div class="filter">
+          <strong>Instruments</strong>
+          <div class="chip-group instrument-filter-group">
+            <% const selectedInstruments=Array.isArray(instruments) ? instruments : (instruments ? [instruments] : []);
+              %>
+              <% [ "Acoustic Guitar" , "Bass Guitar" , "Piano" , "Drums" , "Tabla" , "Flute" , "Violin" , "Cello"
+                , "Synthesizer" , "Harmonium" ].forEach(instr=>{ %>
+                <input type="checkbox" name="instruments" value="<%= instr %>" id="instr-<%= instr %>"
+                  <%=selectedInstruments.includes(instr)?'checked':'' %>>
+                <label for="instr-<%= instr %>">
+                  <%= instr %>
+                </label>
+                <% }) %>
+          </div>
+        </div>
+
+        <!-- Mood -->
+        <div class="filter">
+          <strong>Mood &amp; Vibe</strong>
+          <div class="chip-group mood-filter-group">
+            <% const selectedMood=Array.isArray(mood) ? mood : (mood ? [mood] : []); %>
+              <% ['Happy','Sad','Energetic','Relaxed', "Melancholy" , "Nostalgic" , "Emotional" , "Reflective"
+                , "Sentimental" , "Dreamy" , "Heartfelt" ].forEach(m=>{ %>
+                <input type="checkbox" name="mood" value="<%= m %>" id="mood-<%= m %>"
+                  <%=selectedMood.includes(m)?'checked':'' %>>
+                <label for="mood-<%= m %>">
+                  <%= m %>
+                </label>
+                <% }) %>
+          </div>
+        </div>
+
+        <!-- Themes -->
+        <div class="filter">
+          <strong>Themes</strong>
+          <div class="chip-group themes-filter-group">
+            <% const selectedThemes=Array.isArray(themes) ? themes : (themes ? [themes] : []); %>
+              <% [ "Lost Love" , "Heartbreak" , "Memories" , "Existential Reflection" , "The passage of time"
+                ,'Love','Party','Chill','Workout'].forEach(t=>{ %>
+                <input type="checkbox" name="themes" value="<%= t %>" id="theme-<%= t %>"
+                  <%=selectedThemes.includes(t)?'checked':'' %>>
+                <label for="theme-<%= t %>">
+                  <%= t %>
+                </label>
+                <% }) %>
+          </div>
+        </div>
+
+        <!-- BPM + Key combined for compactness -->
+        <div class="filter">
+          <strong>BPM &amp; Key</strong>
+          <div class="compact-controls">
+            <input type="number" name="bpm_min" placeholder="Min" value="<%= bpm_min || '' %>" aria-label="Minimum BPM">
+            <input type="number" name="bpm_max" placeholder="Max" value="<%= bpm_max || '' %>" aria-label="Maximum BPM">
+            <select name="key" aria-label="Key">
+              <% [ "" , // Major keys "C Major" , "C# Major" , "D Major" , "D# Major" , "E Major" , "F Major"
+                , "F# Major" , "G Major" , "G# Major" , "A Major" , "A# Major" , "B Major" , // Minor keys "C Minor"
+                , "C# Minor" , "D Minor" , "D# Minor" , "E Minor" , "F Minor" , "F# Minor" , "G Minor" , "G# Minor"
+                , "A Minor" , "A# Minor" , "B Minor" ].forEach(k=>{ %>
+                <option value="<%= k %>" <%=key===k?'selected':'' %>><%= k || 'Any' %>
+                </option>
+                <% }) %>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <input type="hidden" name="page" value="1">
+    </form>
+
+    <!-- RESULTS -->
+    <% if(results && results.length){ %>
+      <div class="results-info">
+        <%= total %> results found
+      </div>
+
+      <% results.forEach(r=>{ %>
+        <a href="/details/<%= r._id %>" class="result-link">
+          <div class="result">
+            <h3>
+              <%= r._source.title || 'Untitled' %>
+            </h3>
+            <% if(r.highlight && r.highlight.lyrics){ %>
+              <p><%- r.highlight.lyrics.join(' ... ') %></p>
+        <% } else { %>
+          <p><%= r._source.lyrics ? r._source.lyrics.slice(0,140)+' ...' : '(no lyrics)' %></p>
+              <% } %>
+          </div>
+        </a>
+        <% }) %>
+
+          <!-- Pagination -->
+          <div class="pagination" aria-label="Pagination">
+            <% const totalPages=Math.max(1, Math.ceil(total/size)); const currentPage=page; let
+              baseQueryParts=[`q=${encodeURIComponent(q)}`, `size=${size}`]; selectedLanguages.forEach(lang=>
+              baseQueryParts.push(`language=${encodeURIComponent(lang)}`));
+              selectedInstruments.forEach(instr=>baseQueryParts.push(`instruments=${encodeURIComponent(instr)}`));
+              selectedMood.forEach(m=>baseQueryParts.push(`mood=${encodeURIComponent(m)}`));
+              selectedThemes.forEach(t=>baseQueryParts.push(`themes=${encodeURIComponent(t)}`));
+              if(bpm_min) baseQueryParts.push(`bpm_min=${bpm_min}`);
+              if(bpm_max) baseQueryParts.push(`bpm_max=${bpm_max}`);
+              if(key) baseQueryParts.push(`key=${encodeURIComponent(key)}`);
+              const baseQuery = baseQueryParts.join('&');
+              %>
+
+              <a href="/search?<%= baseQuery %>&page=<%= Math.max(1,currentPage-1) %>"
+                class="<%= currentPage===1?'disabled':'' %>">Prev</a>
+
+              <% const maxPagesToShow=7; let startPage=Math.max(1,currentPage-Math.floor(maxPagesToShow/2)); let
+                endPage=Math.min(totalPages,startPage+maxPagesToShow-1); if(endPage-startPage+1<maxPagesToShow)
+                startPage=Math.max(1,endPage-maxPagesToShow+1); %>
+
+                <% if(startPage>1){ %>
+                  <a href="/search?<%= baseQuery %>&page=1">1</a>
+                  <% if(startPage>2){ %><span style="align-self:center;color:var(--muted)">...</span>
+                    <% } %>
+                      <% } %>
+
+                        <% for(let i=startPage;i<=endPage;i++){ %>
+                          <a href="/search?<%= baseQuery %>&page=<%= i %>" class="<%= i===currentPage?'active':'' %>">
+                            <%= i %>
+                          </a>
+                          <% } %>
+
+                            <% if(endPage<totalPages){ %>
+                              <% if(endPage<totalPages-1){ %><span
+                                  style="align-self:center;color:var(--muted)">...</span>
+                                <% } %>
+                                  <a href="/search?<%= baseQuery %>&page=<%= totalPages %>">
+                                    <%= totalPages %>
+                                  </a>
+                                  <% } %>
+
+                                    <a href="/search?<%= baseQuery %>&page=<%= Math.min(totalPages,currentPage+1) %>"
+                                      class="<%= currentPage>=totalPages?'disabled':'' %>">Next</a>
+          </div>
+
+          <% } else { %>
+            <p style="margin-top:0.9rem;color:var(--muted)">No results found</p>
+            <% } %>
+  </div>
 </body>
+
 </html>

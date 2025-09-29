@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= data.title %> - Song Details
+    </title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --primary: #007bff;
+            --muted: #6c757d;
+            --border: #dee2e6;
+            --radius: 12px;
+            --gap: 1rem;
+            --chip-pad: 0.35rem 0.7rem;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            background: var(--bg);
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.5rem 0;
+            border-bottom: 2px solid var(--primary);
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 1.2rem 1.5rem;
+            margin-bottom: var(--gap);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+
+        .chip-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin-top: 0.5rem;
+        }
+
+        .chip {
+            display: inline-block;
+            padding: var(--chip-pad);
+            border-radius: 20px;
+            background: #f1f3f5;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            color: #495057;
+        }
+
+        .chip:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        .section-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+        }
+
+        .section-row .card {
+            flex: 1 1 300px;
+        }
+
+        pre {
+            background: #f1f3f5;
+            padding: 1rem;
+            border-radius: var(--radius);
+            overflow-x: auto;
+            /* keep scroll if really long line */
+            white-space: pre-wrap;
+            /* allow line breaks */
+            word-wrap: break-word;
+            /* break long words */
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 1rem;
+            padding: 0.5rem 0.9rem;
+            border-radius: 8px;
+            background: var(--primary);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .back-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="/search" class="back-button">&larr; Back to Search</a>
+        <h1>
+            <%= data.title %>
+        </h1>
+
+        <!-- Overview -->
+        <div class="card" style="display: flex; align-items: flex-start; gap: 1.5rem;">
+            <!-- Left text -->
+            <div style="flex: 1;">
+                <h2>Overview</h2>
+                <p><strong>ID:</strong>
+                    <%= data.id %>
+                </p>
+                <p><strong>Language:</strong>
+                    <%= data.language %>
+                </p>
+                <p><strong>BPM:</strong>
+                    <%= data.bpm %>
+                </p>
+                <p><strong>Key:</strong>
+                    <%= data.track_key %>
+                </p>
+            </div>
+
+            <!-- Right fixed image -->
+            <div style="flex: 1; text-align: right;">
+                <img src="/src/assets/hoopr.jpg" alt="Song Image"
+                    style="max-width: 200px; border-radius: var(--radius); object-fit: cover;">
+            </div>
+        </div>
+
+
+
+        <!-- Lyrics -->
+        <div class="card">
+            <h2>Lyrics</h2>
+            <pre><%= data.lyrics %></pre>
+        </div>
+
+        <!-- Instruments, Genres, Mood, Themes -->
+        <div class="section-row">
+            <div class="card">
+                <h2>Instruments</h2>
+                <div class="chip-group">
+                    <% data.instruments.forEach(instr=> { %>
+                        <a href="/search?instruments=<%= encodeURIComponent(instr) %>" class="chip">
+                            <%= instr %>
+                        </a>
+                        <% }) %>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Genre / Subgenre</h2>
+                <div class="chip-group">
+                    <% data.genre_subgenre.forEach(genre=> { %>
+                        <a href="/search?genre=<%= encodeURIComponent(genre) %>" class="chip">
+                            <%= genre %>
+                        </a>
+                        <% }) %>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Mood & Vibe</h2>
+                <div class="chip-group">
+                    <% data.mood_vibe.forEach(m=> { %>
+                        <a href="/search?mood=<%= encodeURIComponent(m) %>" class="chip">
+                            <%= m %>
+                        </a>
+                        <% }) %>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Themes</h2>
+                <div class="chip-group">
+                    <% data.themes.forEach(t=> { %>
+                        <a href="/search?themes=<%= encodeURIComponent(t) %>" class="chip">
+                            <%= t %>
+                        </a>
+                        <% }) %>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tags -->
+        <div class="card">
+            <h2>Tags</h2>
+            <div class="chip-group">
+                <% data.tags.forEach(tag=> { %>
+                    <a href="/search?tags=<%= encodeURIComponent(tag) %>" class="chip">
+                        <%= tag %>
+                    </a>
+                    <% }) %>
+            </div>
+        </div>
+
+
+        <!-- Suggestion -->
+        <% if(data.suggest && data.suggest.input && data.suggest.input.length){ %>
+            <div class="card">
+                <h2>Suggestions</h2>
+                <div class="chip-group">
+                    <% data.suggest.input.forEach(s=> { %>
+                        <span class="chip">
+                            <%= s %>
+                        </span>
+                        <% }) %>
+                </div>
+            </div>
+            <% } %>
+
+    </div>
+</body>
+
+</html>
