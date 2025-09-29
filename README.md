@@ -6,7 +6,7 @@ The focus is on great search UX, clean architecture, and clear trade-offs.
 🛠️ Tech Stack
 
 Backend: Node.js + Express
-Search: ElasticSearch optional
+Search: ElasticSearch
 Frontend: EJS backend driven architech
 
 Setup
@@ -20,7 +20,7 @@ npm install
 # add .env shared over email
 
 # Start server
-npm start
+npm run start
 
 <img width="1918" height="902" alt="image" src="https://github.com/user-attachments/assets/6834d9c6-7eec-4cad-9279-47fad007e9e0" />
 
