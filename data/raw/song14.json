@@ -1,0 +1,173 @@
+  {
+    "Language of song": "English",
+    "Song Title": "Runaway Summer",
+    "Instruments Used": [
+        "Electric Guitar",
+        "Drums",
+        "Bass Guitar",
+        "Synthesizer",
+        "Percussion",
+        "Keyboard"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Pop Rock",
+            "Dance Pop",
+            "Electro-Pop",
+            "Summer Anthem",
+            "Upbeat Ballad",
+            "Youth Pop",
+            "Energetic Pop",
+            "Festival Pop",
+            "Contemporary Pop",
+            "Party Anthem"
+        ],
+        "Mood & Vibe": [
+            "Energetic",
+            "Excited",
+            "Joyful",
+            "Playful",
+            "Upbeat",
+            "Fun",
+            "Carefree",
+            "Optimistic",
+            "Danceable",
+            "Celebratory"
+        ],
+        "Instrumentation": [
+            "Electric Guitar Riffs",
+            "Punchy Drums",
+            "Synth Leads",
+            "Bass Guitar",
+            "Layered Vocals",
+            "Keyboard Arpeggios",
+            "Percussion-driven",
+            "Electronic Effects",
+            "Full Band Sound",
+            "Bright Hooks"
+        ],
+        "Vocal Style": [
+            "Energetic Male Vocals",
+            "Melodic",
+            "Upbeat Delivery",
+            "Expressive",
+            "Playful",
+            "Harmonized Backing Vocals",
+            "Cheerful",
+            "Storytelling",
+            "Dynamic Vocals",
+            "Youthful Energy"
+        ],
+        "Tempo & Rhythm": [
+            "Fast Tempo",
+            "Driving Beat",
+            "Danceable Groove",
+            "Steady Rhythm",
+            "Energetic Percussion",
+            "Syncopated Drums",
+            "Pulsating Energy",
+            "Upbeat Flow",
+            "Controlled Dynamics",
+            "Rapid Crescendos"
+        ],
+        "Themes": [
+            "Summer Fun",
+            "Adventure",
+            "Friendship",
+            "Carefree Youth",
+            "Excitement",
+            "Romantic Playfulness",
+            "Celebration",
+            "Optimism",
+            "Joy",
+            "Energy"
+        ],
+        "Use Case": [
+            "Party Soundtrack",
+            "Summer Playlist",
+            "Road Trip Music",
+            "Dance Videos",
+            "Gym Workout Music",
+            "Driving Music",
+            "Youth Events",
+            "Festival Scenes",
+            "Social Media Shorts",
+            "Fun Personal Listening"
+        ],
+        "Sound Characteristics": [
+            "Bright Production",
+            "Punchy Drums",
+            "Upfront Vocals",
+            "Energetic Mix",
+            "Layered Instruments",
+            "Dynamic Swells",
+            "Clean Synths",
+            "Full Soundstage",
+            "Catchy Hooks",
+            "Vibrant Tones"
+        ],
+        "Cultural Context": [
+            "Western Pop",
+            "Contemporary Pop",
+            "Electro-Pop Elements",
+            "Youth Culture",
+            "Festival Music",
+            "Party Anthem",
+            "Modern Production Techniques",
+            "Catchy Hooks",
+            "Dance Culture",
+            "Pop-Rock Storytelling"
+        ]
+    },
+    "production style": "Bright, lively, and polished. Emphasizes catchy guitar/synth hooks and driving percussion. Vocals are energetic and upfront for an exhilarating mood.",
+    "edit_pacing": [
+        "fast_build",
+        "energetic_transitions",
+        "high_crescendos",
+        "pulsating_rhythms",
+        "dynamic_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Jester (Playful, fun, energetic)",
+        "The Lover (Youthful, romantic)",
+        "The Hero (Adventurous, bold)"
+    ],
+    "Tags based on Lyrics": [
+        "summer fun",
+        "carefree",
+        "friendship",
+        "dance",
+        "joy",
+        "youth energy",
+        "adventure",
+        "celebration",
+        "excitement",
+        "optimism"
+    ],
+    "Entities in Lyrics": [
+        "sunset drive",
+        "beach party",
+        "friends laughing",
+        "electric nights",
+        "city lights",
+        "summer breeze",
+        "palm trees",
+        "music beats",
+        "free spirit",
+        "drifting clouds"
+    ],
+    "Melody": "Upbeat and catchy, driven by energetic vocals and electric guitar riffs, with bright synth lines enhancing summer vibes.",
+    "Harmony": "Predominantly major chords to create joy and excitement, with occasional suspended chords for tension and lift.",
+    "Rhythm": "Fast, danceable groove with driving drums and syncopated percussion for a high-energy feel.",
+    "Approximate BPM": "128-135 BPM",
+    "track-song Key": "A Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely A, E, F#m, D, C#m with occasional suspended chords for excitement.",
+    "Lyrics In Song": "Running down the sunlit streets,\nfriends around, our hearts beat fast,\nsummer nights will always last.",
+    "Full Lyrics In Song": "Running down the sunlit streets,\nfriends around, our hearts beat fast,\nsummer nights will always last.\n\nCity lights and music loud,\nwe dance beneath the stars tonight,\nelectric beats and laughter shared,\nfreedom in every step we take,\ncarefree moments, hearts ignite,\nsummer dreams that shine so bright."
+  }

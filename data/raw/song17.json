@@ -1,0 +1,173 @@
+  {
+    "Language of song": "Bengali",
+    "Song Title": "Alor Gaan",
+    "Instruments Used": [
+        "Electric Guitar",
+        "Drums",
+        "Bass Guitar",
+        "Synthesizer",
+        "Keyboard",
+        "Percussion"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Bengali Pop",
+            "Dance Pop",
+            "Electro-Pop",
+            "Festival Anthem",
+            "Youth Pop",
+            "Party Anthem",
+            "Contemporary Bengali",
+            "Pop-Rock",
+            "Bollywood-influenced",
+            "Upbeat Ballad"
+        ],
+        "Mood & Vibe": [
+            "Energetic",
+            "Excited",
+            "Joyful",
+            "Upbeat",
+            "Playful",
+            "Celebratory",
+            "Fun",
+            "Optimistic",
+            "Danceable",
+            "Vibrant"
+        ],
+        "Instrumentation": [
+            "Electric Guitar Riffs",
+            "Punchy Drums",
+            "Bass Guitar",
+            "Synth Leads",
+            "Keyboard Arpeggios",
+            "Layered Vocals",
+            "Percussion-driven",
+            "Electronic Effects",
+            "Bright Hooks",
+            "Full Band Sound"
+        ],
+        "Vocal Style": [
+            "Energetic Female Vocals",
+            "Melodic",
+            "Playful",
+            "Upbeat Delivery",
+            "Expressive",
+            "Storytelling",
+            "Harmonized Backing Vocals",
+            "Cheerful",
+            "Dynamic Vocals",
+            "Youthful Energy"
+        ],
+        "Tempo & Rhythm": [
+            "Fast Tempo",
+            "Driving Beat",
+            "Danceable Groove",
+            "Steady Rhythm",
+            "Energetic Percussion",
+            "Syncopated Drums",
+            "Pulsating Energy",
+            "Upbeat Flow",
+            "Rapid Crescendos",
+            "Controlled Dynamics"
+        ],
+        "Themes": [
+            "Joy",
+            "Celebration",
+            "Friendship",
+            "Youthful Energy",
+            "Dance",
+            "Optimism",
+            "Excitement",
+            "Carefree Life",
+            "Romantic Fun",
+            "Festivity"
+        ],
+        "Use Case": [
+            "Party Soundtrack",
+            "Festival Playlist",
+            "Wedding Reception",
+            "Youth Events",
+            "Dance Videos",
+            "Gym Workout Music",
+            "Driving Music",
+            "Social Media Shorts",
+            "Late-night Drives",
+            "Energetic Personal Listening"
+        ],
+        "Sound Characteristics": [
+            "Bright Production",
+            "Punchy Drums",
+            "Upfront Vocals",
+            "Energetic Mix",
+            "Layered Instruments",
+            "Dynamic Swells",
+            "Clean Synths",
+            "Full Soundstage",
+            "Catchy Hooks",
+            "Vibrant Tones"
+        ],
+        "Cultural Context": [
+            "Bengali Pop Music",
+            "Contemporary Indian Pop",
+            "Festival Music",
+            "Youth Culture",
+            "Bollywood Influences",
+            "Dance Culture",
+            "Modern Production Techniques",
+            "Catchy Hooks",
+            "Pop-Rock Elements",
+            "Energetic Storytelling"
+        ]
+    },
+    "production style": "Upbeat, lively, and polished. Focus on electric guitar and synth hooks, punchy percussion, and energetic female vocals for a playful, danceable vibe.",
+    "edit_pacing": [
+        "fast_build",
+        "energetic_transitions",
+        "high_crescendos",
+        "pulsating_rhythms",
+        "dynamic_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Jester (Playful, fun, energetic)",
+        "The Lover (Romantic, joyful)",
+        "The Hero (Bold, lively, adventurous)"
+    ],
+    "Tags based on Lyrics": [
+        "celebration",
+        "dance",
+        "friendship",
+        "fun",
+        "joy",
+        "optimism",
+        "energy",
+        "carefree attitude",
+        "romantic fun",
+        "youthful excitement"
+    ],
+    "Entities in Lyrics": [
+        "আলো (light)",
+        "নাচ (dance)",
+        "বন্ধু (friend)",
+        "উৎসব (festival)",
+        "সঙ্গীত (music)",
+        "রঙিন আকাশ (colorful sky)",
+        "উচ্ছ্বাস (excitement)",
+        "রাত (night)",
+        "গানের তাল (beat of music)",
+        "উল্লাস (joy)"
+    ],
+    "Melody": "Catchy, energetic, driven by female vocals, electric guitar, and synths. Danceable rhythm and bright hooks emphasize excitement.",
+    "Harmony": "Major chords for bright, happy feel, with occasional suspended chords to increase tension and lift.",
+    "Rhythm": "Fast-paced, driving percussion with syncopated drums and bass for danceable energy.",
+    "Approximate BPM": "130-140 BPM",
+    "track-song Key": "E Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely E, B, C#m, A, F#m with occasional suspended chords.",
+    "Lyrics In Song": "আলোয় নাচি আমরা,\nবন্ধুদের সঙ্গে মজা করি,\nরাতের খুশিতে মাতি।",
+    "Full Lyrics In Song": "আলোয় নাচি আমরা,\nবন্ধুদের সঙ্গে মজা করি,\nরাতের খুশিতে মাতি।\nরঙিন আকাশে আমাদের হাসি,\nসঙ্গীতের তাল ধরে আমরা লাফাই,\nউৎসবের আনন্দে সবাই মিলে,\nড্রাম এবং গিটার বাজায়,\nউচ্ছ্বাসে রাত কাটাই,\nনাচের আনন্দে জীবন উদযাপন করি।"
+  }

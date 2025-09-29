@@ -1,0 +1,173 @@
+  {
+    "Language of song": "English",
+    "Song Title": "Fading Echoes",
+    "Instruments Used": [
+      "Acoustic Guitar",
+      "Piano",
+      "Strings (Cello, Violin)",
+      "Synthesizer Pads",
+      "Drums (Soft Brushes)",
+      "Bass Guitar"
+    ],
+    "category wise tags": {
+      "Genre & Subgenre": [
+        "Indie Pop",
+        "Soft Rock",
+        "Ambient Ballad",
+        "Dream Pop",
+        "Melancholy Pop",
+        "Romantic Pop",
+        "Contemporary Acoustic",
+        "Emotional Pop",
+        "Atmospheric Ballad",
+        "Singer-Songwriter"
+      ],
+      "Mood & Vibe": [
+        "Melancholy",
+        "Reflective",
+        "Nostalgic",
+        "Tender",
+        "Emotional",
+        "Heartfelt",
+        "Poignant",
+        "Yearning",
+        "Dreamy",
+        "Somber"
+      ],
+      "Instrumentation": [
+        "Acoustic Guitar Arpeggios",
+        "Piano Melody",
+        "String Sections",
+        "Synth Pads",
+        "Soft Drums",
+        "Mellow Bassline",
+        "Layered Vocals",
+        "Ambient Effects",
+        "Percussion-driven",
+        "Clean Instrumentation"
+      ],
+      "Vocal Style": [
+        "Smooth Male Vocals",
+        "Emotional Delivery",
+        "Melodic",
+        "Tender",
+        "Expressive",
+        "Storytelling",
+        "Slightly husky",
+        "Vibrato (subtle)",
+        "Harmonized Backing Vocals",
+        "Romantic"
+      ],
+      "Tempo & Rhythm": [
+        "Slow Tempo",
+        "Steady Beat",
+        "Flowing Rhythm",
+        "Mellow Groove",
+        "Relaxed Pace",
+        "Hypnotic",
+        "Controlled Energy",
+        "Gentle Crescendos",
+        "Smooth Transitions",
+        "Measured Dynamics"
+      ],
+      "Themes": [
+        "Lost Love",
+        "Heartbreak",
+        "Reminiscence",
+        "Unfulfilled Desire",
+        "Longing",
+        "Memories",
+        "Emotional Reflection",
+        "Endurance",
+        "Time Passing",
+        "Existential Thoughts"
+      ],
+      "Use Case": [
+        "Romantic Drama Soundtrack",
+        "Reflective Montages",
+        "Background for Emotional Scenes",
+        "Personal Listening (Relaxation)",
+        "Sad Love Stories",
+        "Late-night Drives",
+        "Poetry Readings",
+        "Art House Cinema",
+        "Travel Documentaries",
+        "Meditative Listening"
+      ],
+      "Sound Characteristics": [
+        "Rich Production",
+        "Warm Tones",
+        "Echoey",
+        "Reverberant",
+        "Smooth Mix",
+        "Dynamic Swells",
+        "Clean Vocals",
+        "Ambient Textures",
+        "Full Soundstage",
+        "Layered Instrumentation"
+      ],
+      "Cultural Context": [
+        "Western Indie Pop",
+        "Contemporary Ballad",
+        "Dream Pop Influences",
+        "Soft Rock Elements",
+        "Emotional Storytelling",
+        "Modern Production Techniques",
+        "Romantic Themes",
+        "Crossover Pop",
+        "Synth-driven Melody",
+        "Atmospheric Soundscapes"
+      ]
+    },
+    "production style": "Polished, reflective, and layered, emphasizing vocal clarity with acoustic and ambient textures. Emotional crescendos highlight the intimate storytelling.",
+    "edit_pacing": [
+      "slow_build",
+      "smooth_transitions",
+      "emotional_crescendos",
+      "sustained_notes",
+      "gradual_unfolding"
+    ],
+    "compliance": [
+      "no_explicit",
+      "family_safe",
+      "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+      "The Lover (Romantic, intimate, passionate)",
+      "The Sage (Reflective, wise, nostalgic)",
+      "The Innocent (Pure, hopeful, slightly melancholic)"
+    ],
+    "Tags based on Lyrics": [
+      "lost love",
+      "heartache",
+      "memories",
+      "regret",
+      "yearning",
+      "dreams",
+      "searching for meaning",
+      "loneliness",
+      "nostalgia",
+      "emotional reflection"
+    ],
+    "Entities in Lyrics": [
+      "fading echoes",
+      "empty streets",
+      "silent night",
+      "longing gaze",
+      "past whispers",
+      "memory lane",
+      "heartbeats",
+      "moonlight",
+      "drifting clouds",
+      "time slipping"
+    ],
+    "Melody": "Soft, flowing, and reflective; driven by vocals, acoustic guitar, and piano with sustained strings emphasizing emotional depth.",
+    "Harmony": "Predominantly minor chords with subtle major lifts for hopefulness. Harmonies layered for rich emotive effect.",
+    "Rhythm": "Slow and steady, soft percussion allowing melodies to breathe, creating reflective space.",
+    "Approximate BPM": "66-74 BPM",
+    "track-song Key": "E Minor",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely Em, C, G, D, Am, Bm, with occasional suspended chords.",
+    "Lyrics In Song": "Fading echoes of the past,\nmemories that couldn’t last,\nsearching for what slipped too fast.",
+    "Full Lyrics In Song": "Fading echoes of the past,\nmemories that couldn’t last,\nsearching for what slipped too fast.\n\nSilent nights and empty streets,\nheartbeats lost in fleeting beats,\nmoonlight shines on drifting clouds,\ntime slips quietly away,\nyears go by but hearts still ache,\nlonging for what we can’t remake."
+  }

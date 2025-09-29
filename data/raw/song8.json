@@ -1,0 +1,173 @@
+  {
+    "Language of song": "Marathi",
+    "Song Title": "Aathvaninche Geet",
+    "Instruments Used": [
+      "Acoustic Guitar",
+      "Piano",
+      "Violin",
+      "Flute",
+      "Drums (Soft Brushes)",
+      "Bass Guitar"
+    ],
+    "category wise tags": {
+      "Genre & Subgenre": [
+        "Marathi Folk Pop",
+        "Romantic Ballad",
+        "Contemporary Acoustic",
+        "Soft Rock (Indian style)",
+        "Melancholy Pop",
+        "Sufi-influenced",
+        "Traditional Indian Fusion",
+        "Emotional Pop",
+        "Ballad",
+        "Acoustic Melody"
+      ],
+      "Mood & Vibe": [
+        "Nostalgic",
+        "Reflective",
+        "Melancholy",
+        "Tender",
+        "Emotional",
+        "Heartfelt",
+        "Dreamy",
+        "Yearning",
+        "Poignant",
+        "Somber"
+      ],
+      "Instrumentation": [
+        "Lush Strings",
+        "Sustained Piano Chords",
+        "Soft Drums",
+        "Flute Melody",
+        "Mellow Bassline",
+        "Percussion-driven",
+        "Layered Acoustic Elements",
+        "Ambient Synths",
+        "Harmony Vocals",
+        "Clean Instrumentation"
+      ],
+      "Vocal Style": [
+        "Smooth Male Vocals",
+        "Melodic",
+        "Tender",
+        "Emotional Delivery",
+        "Expressive",
+        "Storytelling",
+        "Harmonized Backing Vocals",
+        "Romantic",
+        "Slightly husky",
+        "Vibrato (subtle)"
+      ],
+      "Tempo & Rhythm": [
+        "Slow Tempo",
+        "Steady Beat",
+        "Flowing Rhythm",
+        "Mellow Groove",
+        "Relaxed Pace",
+        "Hypnotic",
+        "Controlled Energy",
+        "Gentle Crescendos",
+        "Swaying Beat",
+        "Measured Dynamics"
+      ],
+      "Themes": [
+        "Lost Love",
+        "Heartbreak",
+        "Reminiscence",
+        "Unfulfilled Desire",
+        "Longing",
+        "Memories",
+        "Life Reflections",
+        "Emotional Journey",
+        "Acceptance",
+        "Time Passing"
+      ],
+      "Use Case": [
+        "Romantic Drama Soundtrack",
+        "Background for Emotional Scenes",
+        "Personal Listening (Reflection)",
+        "Sad Love Stories",
+        "Art House Cinema",
+        "Travel Documentaries (emotional tone)",
+        "Late-night drives",
+        "Poetry Readings",
+        "Wedding Memories",
+        "Emotional Montages"
+      ],
+      "Sound Characteristics": [
+        "Warm Tones",
+        "Echoey",
+        "Smooth Mix",
+        "Ambient Textures",
+        "Full Soundstage",
+        "Clean Vocals",
+        "Reverberant",
+        "Dynamic Swells",
+        "Layered Instruments",
+        "Rich Production"
+      ],
+      "Cultural Context": [
+        "Marathi Folk and Pop Fusion",
+        "Contemporary Indian Music",
+        "Regional Indian Film Music",
+        "Bollywood Influenced",
+        "Emotional Storytelling",
+        "Traditional Melodies",
+        "Modern Production Techniques",
+        "Indian Acoustic Music",
+        "Reflective Songwriting",
+        "Cultural Nuances"
+      ]
+    },
+    "production style": "Soft and reflective, focusing on acoustic textures with rich piano and violin layers. The mix is polished to emphasize vocals and emotional resonance, while maintaining an intimate acoustic feel.",
+    "edit_pacing": [
+      "slow_build",
+      "smooth_transitions",
+      "emotional_crescendos",
+      "sustained_notes",
+      "gradual_unfolding"
+    ],
+    "compliance": [
+      "no_explicit",
+      "family_safe",
+      "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+      "The Lover (Romantic, intimate, passionate)",
+      "The Sage (Reflective, wise, nostalgic)",
+      "The Innocent (Pure, hopeful, slightly melancholic)"
+    ],
+    "Tags based on Lyrics": [
+      "lost love",
+      "heartache",
+      "past memories",
+      "yearning",
+      "regret",
+      "nostalgia",
+      "unfulfilled desire",
+      "searching for meaning",
+      "melancholy",
+      "emotional reflection"
+    ],
+    "Entities in Lyrics": [
+      "आठवणी (memories)",
+      "मन (mind)",
+      "तू (you)",
+      "जीवन प्रवास (life journey)",
+      "सुख-दुःख (joy-sorrow)",
+      "क्षण (moment)",
+      "हृदय (heart)",
+      "स्वप्न (dreams)",
+      "स्मृती (recollection)",
+      "अनुभव (experience)"
+    ],
+    "Melody": "Flowing and gentle, carried by acoustic guitar and piano, with the male vocals expressing tender longing. Sustained violin and flute add depth to emotional peaks.",
+    "Harmony": "Predominantly minor chords with occasional major lifts. Harmonies are rich yet subtle, creating an intimate melancholic feel.",
+    "Rhythm": "Slow and swaying, with soft percussion and gentle brush drums, letting the melody breathe.",
+    "Approximate BPM": "70-78 BPM",
+    "track-song Key": "A Minor",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely Am, F, C, G, Dm, E, with occasional suspended chords.",
+    "Lyrics In Song": "आठवणींच्या मार्गावर तू राहिला,\nमनात तुझं प्रेम जपलं,\nक्षण क्षणांमध्ये तुला शोधतो.",
+    "Full Lyrics In Song": "आठवणींच्या मार्गावर तू राहिला,\nमनात तुझं प्रेम जपलं,\nक्षण क्षणांमध्ये तुला शोधतो.\n\nसुख-दुःख अनुभवले,\nस्वप्न गमावले,\nहृदय भरून गेलं,\nस्मृतींचा मार्ग चालतो,\nतू पुन्हा आठवतो."
+  }

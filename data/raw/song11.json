@@ -1,0 +1,173 @@
+  {
+    "Language of song": "Hindi",
+    "Song Title": "Yaadon Ki Barsaat",
+    "Instruments Used": [
+      "Tabla",
+      "Synthesizer",
+      "Flute",
+      "Acoustic Guitar",
+      "Bass Guitar",
+      "Soft Drums"
+    ],
+    "category wise tags": {
+      "Genre & Subgenre": [
+        "Bollywood Pop",
+        "Romantic Ballad",
+        "Melancholy Pop",
+        "Indian Pop",
+        "Soft Rock (Indian style)",
+        "Traditional Indian Fusion",
+        "Sufi-influenced",
+        "Contemporary Indian",
+        "Ballad",
+        "Emotional Pop"
+      ],
+      "Mood & Vibe": [
+        "Melancholy",
+        "Nostalgic",
+        "Reflective",
+        "Emotional",
+        "Tender",
+        "Yearning",
+        "Heartfelt",
+        "Poignant",
+        "Dreamy",
+        "Somber"
+      ],
+      "Instrumentation": [
+        "Lush Strings",
+        "Sustained Synth Pads",
+        "Percussion-driven",
+        "Lead Flute Melody",
+        "Rhythmic Tabla",
+        "Mellow Bassline",
+        "Soft Drums",
+        "Layered Synths",
+        "Acoustic Elements",
+        "Electronic Elements"
+      ],
+      "Vocal Style": [
+        "Smooth Male Vocals",
+        "Emotional Delivery",
+        "Melodic",
+        "Tender",
+        "Expressive",
+        "Slightly husky",
+        "Vibrato (subtle)",
+        "Harmonized Backing Vocals",
+        "Storytelling",
+        "Romantic"
+      ],
+      "Tempo & Rhythm": [
+        "Slow Tempo",
+        "Steady Beat",
+        "Flowing Rhythm",
+        "Mellow Groove",
+        "Relaxed Pace",
+        "Syncopated Percussion (Tabla)",
+        "Driving but not fast",
+        "Hypnotic",
+        "Controlled Energy",
+        "Swelling Dynamics"
+      ],
+      "Themes": [
+        "Lost Love",
+        "Heartbreak",
+        "Reminiscence",
+        "Unfulfilled Desire",
+        "Longing",
+        "Memories",
+        "Existential Reflection",
+        "Acceptance (of loss)",
+        "Life’s Disappointments",
+        "Passage of Time"
+      ],
+      "Use Case": [
+        "Romantic Drama Soundtrack",
+        "Reflective Montages",
+        "Background Music for Emotional Scenes",
+        "Personal Listening (Relaxation)",
+        "Sad Love Stories",
+        "Travel Documentaries (emotional undertones)",
+        "Art House Cinema",
+        "Late-night drives",
+        "Wedding Anniversary (bittersweet)",
+        "Poetry Readings"
+      ],
+      "Sound Characteristics": [
+        "Rich Production",
+        "Warm Tones",
+        "Echoey",
+        "Reverberant",
+        "Smooth Mix",
+        "Dynamic Swells",
+        "Clean Vocals",
+        "Ambient Textures",
+        "Full Soundstage",
+        "Clear Instrumentation"
+      ],
+      "Cultural Context": [
+        "Bollywood Pop",
+        "Contemporary Indian Music",
+        "Indian Romantic Ballad",
+        "Traditional Indian Melodies",
+        "Cultural Fusion",
+        "Modern Production Techniques",
+        "South Asian Storytelling",
+        "Emotional Narrative",
+        "Regional Indian Film Music",
+        "Sufi-influenced Contemporary"
+      ]
+    },
+    "production style": "Polished and lush, balancing traditional Indian instrumentation with modern pop sensibilities. Reverb and delay emphasize the melancholic, dreamy mood, while vocals are front and center.",
+    "edit_pacing": [
+      "slow_build",
+      "smooth_transitions",
+      "emotional_crescendos",
+      "sustained_notes",
+      "gradual_unfolding"
+    ],
+    "compliance": [
+      "no_explicit",
+      "family_safe",
+      "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+      "The Lover (Romantic, intimate, passionate)",
+      "The Sage (Reflective, wise, nostalgic)",
+      "The Innocent (Pure, hopeful, slightly melancholic)"
+    ],
+    "Tags based on Lyrics": [
+      "lost love",
+      "heartache",
+      "past memories",
+      "unfulfilled desires",
+      "regret",
+      "yearning",
+      "emotional reflection",
+      "longing",
+      "melancholy",
+      "nostalgia"
+    ],
+    "Entities in Lyrics": [
+      "बारिश की यादें (memories of rain)",
+      "तुम (you)",
+      "दिल (heart)",
+      "पल (moments)",
+      "सपने (dreams)",
+      "अधूरी कहानी (unfinished story)",
+      "मौन (silence)",
+      "स्मृति (memory)",
+      "अधूरा प्यार (unfulfilled love)",
+      "समय (time)"
+    ],
+    "Melody": "Gentle and emotional, with vocals carrying the primary melody, supported by flute and acoustic guitar. Sustained notes convey deep longing.",
+    "Harmony": "Predominantly minor with subtle major shifts for emotive highlights. Rich chord voicings create depth.",
+    "Rhythm": "Soft, steady, flowing with tabla and brushed drums creating a hypnotic, reflective rhythm.",
+    "Approximate BPM": "65-72 BPM",
+    "track-song Key": "G Minor",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely Gm, Dm, Bb, F, Cm, Eb, with suspended chords for added emotional depth.",
+    "Lyrics In Song": "बारिश की यादें दिल में बसी,\nतुम दूर हो पर यादें साथ चलीं,\nहर पल तुम्हें ढूंढता रहा मैं।",
+    "Full Lyrics In Song": "बारिश की यादें दिल में बसी,\nतुम दूर हो पर यादें साथ चलीं,\nहर पल तुम्हें ढूंढता रहा मैं।\n\nसपनों में तेरा चेहरा आया,\nअधूरी कहानी याद दिलाई,\nसमय चलता गया लेकिन प्यार रहा,\nमौन में बसी हर एक याद,\nअधूरा प्यार दिल में बचा,\nस्मृति की बारात साथ चली।"
+  }

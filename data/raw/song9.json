@@ -1,0 +1,173 @@
+  {
+    "Language of song": "English",
+    "Song Title": "Shadows in the Rain",
+    "Instruments Used": [
+      "Electric Guitar",
+      "Piano",
+      "Synthesizer",
+      "Drums (Brushes)",
+      "Bass Guitar",
+      "Strings (Pad)"
+    ],
+    "category wise tags": {
+      "Genre & Subgenre": [
+        "Indie Pop",
+        "Soft Rock",
+        "Melancholy Pop",
+        "Ambient Pop",
+        "Dream Pop",
+        "Contemporary Ballad",
+        "Romantic Pop",
+        "Electronica Fusion",
+        "Emotional Pop",
+        "Atmospheric Ballad"
+      ],
+      "Mood & Vibe": [
+        "Melancholy",
+        "Nostalgic",
+        "Reflective",
+        "Dreamy",
+        "Emotional",
+        "Tender",
+        "Poignant",
+        "Heartfelt",
+        "Somber",
+        "Yearning"
+      ],
+      "Instrumentation": [
+        "Electric Guitar Riffs",
+        "Piano Arpeggios",
+        "Synth Pads",
+        "Soft Drums",
+        "Mellow Bassline",
+        "Layered Strings",
+        "Ambient Effects",
+        "Rhythmic Percussion",
+        "Clean Vocals",
+        "Electronic Textures"
+      ],
+      "Vocal Style": [
+        "Smooth Male Vocals",
+        "Emotional Delivery",
+        "Melodic",
+        "Tender",
+        "Expressive",
+        "Slightly husky",
+        "Harmonized Backing Vocals",
+        "Storytelling",
+        "Romantic",
+        "Vibrato (subtle)"
+      ],
+      "Tempo & Rhythm": [
+        "Slow Tempo",
+        "Steady Beat",
+        "Flowing Rhythm",
+        "Mellow Groove",
+        "Relaxed Pace",
+        "Hypnotic",
+        "Controlled Energy",
+        "Smooth Transitions",
+        "Gentle Crescendos",
+        "Measured Dynamics"
+      ],
+      "Themes": [
+        "Lost Love",
+        "Heartbreak",
+        "Reminiscence",
+        "Unfulfilled Desire",
+        "Longing",
+        "Memories",
+        "Emotional Reflection",
+        "Endurance",
+        "Time Passing",
+        "Existential Thoughts"
+      ],
+      "Use Case": [
+        "Romantic Drama Soundtrack",
+        "Reflective Montages",
+        "Background for Emotional Scenes",
+        "Personal Listening (Relaxation)",
+        "Sad Love Stories",
+        "Late-night Drives",
+        "Poetry Readings",
+        "Art House Cinema",
+        "Travel Documentaries",
+        "Meditative Listening"
+      ],
+      "Sound Characteristics": [
+        "Rich Production",
+        "Warm Tones",
+        "Echoey",
+        "Reverberant",
+        "Smooth Mix",
+        "Dynamic Swells",
+        "Clean Vocals",
+        "Ambient Textures",
+        "Full Soundstage",
+        "Layered Instrumentation"
+      ],
+      "Cultural Context": [
+        "Western Indie Pop",
+        "Contemporary Ballad",
+        "Dream Pop Influences",
+        "Soft Rock Elements",
+        "Emotional Storytelling",
+        "Modern Production Techniques",
+        "Romantic Themes",
+        "Crossover Pop",
+        "Synth-driven Melody",
+        "Atmospheric Soundscapes"
+      ]
+    },
+    "production style": "Polished, ambient, and dreamy, with emphasis on vocal clarity and atmospheric instrumentation. Layered synths and strings create a reflective mood with emotional crescendos.",
+    "edit_pacing": [
+      "slow_build",
+      "smooth_transitions",
+      "emotional_crescendos",
+      "sustained_notes",
+      "gradual_unfolding"
+    ],
+    "compliance": [
+      "no_explicit",
+      "family_safe",
+      "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+      "The Lover (Romantic, intimate, passionate)",
+      "The Sage (Reflective, wise, nostalgic)",
+      "The Innocent (Pure, hopeful, slightly melancholic)"
+    ],
+    "Tags based on Lyrics": [
+      "lost love",
+      "heartache",
+      "memories",
+      "regret",
+      "yearning",
+      "dreams",
+      "searching for meaning",
+      "loneliness",
+      "nostalgia",
+      "emotional reflection"
+    ],
+    "Entities in Lyrics": [
+      "rain-soaked streets",
+      "shadows",
+      "empty hands",
+      "fading lights",
+      "silent whispers",
+      "midnight sky",
+      "passing clouds",
+      "forgotten dreams",
+      "heartbeats",
+      "longing gaze"
+    ],
+    "Melody": "Gentle and flowing, carried by vocals and piano, with sustained notes in strings and synths that emphasize melancholy.",
+    "Harmony": "Minor-centric chords creating an intimate and emotional feel, with occasional suspended chords adding tension.",
+    "Rhythm": "Soft and steady, with brushes on drums and subtle percussion, allowing melodic lines to breathe.",
+    "Approximate BPM": "72-80 BPM",
+    "track-song Key": "D Minor",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely Dm, Am, C, G, F, Bb, Gm, with occasional suspended chords.",
+    "Lyrics In Song": "Shadows fall as rain drips down, memories linger in empty town, searching for what’s lost and found.",
+    "Full Lyrics In Song": "Shadows fall as rain drips down,\nmemories linger in empty town,\nsearching for what’s lost and found.\n\nFading lights guide my way,\nsilent whispers never stay,\nmidnight sky reminds of yesterday,\nforgotten dreams return again,\nheartbeats echo in the rain,\nlonging gaze awaits in vain."
+  }

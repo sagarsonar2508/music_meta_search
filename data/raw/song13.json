@@ -1,0 +1,173 @@
+  {
+    "Language of song": "Marathi",
+    "Song Title": "Zingaat Zala",
+    "Instruments Used": [
+        "Electric Guitar",
+        "Drums",
+        "Bass Guitar",
+        "Synthesizer",
+        "Dholki",
+        "Keyboard"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Marathi Pop",
+            "Dance Pop",
+            "Folk Fusion",
+            "Energetic Rock",
+            "Party Anthem",
+            "Contemporary Marathi",
+            "Upbeat Ballad",
+            "Youth Pop",
+            "Pop-Rock",
+            "Electro-Fusion"
+        ],
+        "Mood & Vibe": [
+            "Energetic",
+            "Excited",
+            "Joyful",
+            "Playful",
+            "Upbeat",
+            "Celebratory",
+            "Optimistic",
+            "Fun",
+            "Danceable",
+            "Festive"
+        ],
+        "Instrumentation": [
+            "Electric Guitar Riffs",
+            "Dynamic Drums",
+            "Mellow Bassline",
+            "Synth Pads",
+            "Dholki Beats",
+            "Keyboard Arpeggios",
+            "Layered Vocals",
+            "Percussion-driven",
+            "Electronic Effects",
+            "Full Band"
+        ],
+        "Vocal Style": [
+            "Energetic Male Vocals",
+            "Melodic",
+            "Playful",
+            "Expressive",
+            "Upbeat Delivery",
+            "Harmonized Backing Vocals",
+            "Cheerful",
+            "Slightly husky",
+            "Storytelling",
+            "Fun/Party Style"
+        ],
+        "Tempo & Rhythm": [
+            "Fast Tempo",
+            "Driving Beat",
+            "Danceable Groove",
+            "Steady Rhythm",
+            "Energetic Percussion",
+            "Syncopated Drums",
+            "Upbeat Flow",
+            "Pulsating Energy",
+            "Controlled Dynamics",
+            "Rapid Crescendos"
+        ],
+        "Themes": [
+            "Celebration",
+            "Joy",
+            "Festivity",
+            "Youthful Energy",
+            "Friendship",
+            "Fun Adventures",
+            "Carefree Life",
+            "Romantic Playfulness",
+            "Dance Party",
+            "Optimism"
+        ],
+        "Use Case": [
+            "Party Soundtrack",
+            "Wedding Sangeet",
+            "Youth Events",
+            "Dance Videos",
+            "Celebratory Montages",
+            "Gym Workout Music",
+            "Driving Music",
+            "Festival Scenes",
+            "Social Media Shorts",
+            "Fun Personal Listening"
+        ],
+        "Sound Characteristics": [
+            "Bright Production",
+            "Punchy Drums",
+            "Upfront Vocals",
+            "Energetic Mix",
+            "Layered Instruments",
+            "Dynamic Swells",
+            "Clean Synths",
+            "Full Soundstage",
+            "Catchy Hooks",
+            "Vibrant Tones"
+        ],
+        "Cultural Context": [
+            "Marathi Pop Music",
+            "Contemporary Indian Pop",
+            "Folk Fusion Elements",
+            "Bollywood Influences",
+            "Festival Music",
+            "Dance Party Music",
+            "Youth Culture",
+            "Energetic Storytelling",
+            "Regional Indian Pop",
+            "Modern Production Techniques"
+        ]
+    },
+    "production style": "Polished, punchy, and lively. Focus on energetic percussion and catchy synth/electric guitar hooks. Vocals are upfront and playful, creating a high-energy, celebratory mood.",
+    "edit_pacing": [
+        "fast_build",
+        "energetic_transitions",
+        "high_crescendos",
+        "pulsating_rhythms",
+        "dynamic_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Jester (Fun, playful, energetic)",
+        "The Lover (Romantic, joyful)",
+        "The Hero (Bold, lively, adventurous)"
+    ],
+    "Tags based on Lyrics": [
+        "celebration",
+        "fun moments",
+        "friendship",
+        "dancing",
+        "joy",
+        "youth energy",
+        "festive mood",
+        "romantic fun",
+        "playfulness",
+        "carefree attitude"
+    ],
+    "Entities in Lyrics": [
+        "मित्रमंडळ (friends group)",
+        "संध्याकाळ (evening)",
+        "नृत्य (dance)",
+        "संगीत (music)",
+        "हसरा चेहरा (smiling face)",
+        "पार्टी (party)",
+        "उत्सव (festival)",
+        "सूर्यास्त (sunset)",
+        "मस्ती (fun)",
+        "उत्साही रिदम (energetic rhythm)"
+    ],
+    "Melody": "Upbeat, catchy, carried by energetic male vocals and electric guitar riffs. Piano and synth hooks add brightness and drive.",
+    "Harmony": "Major-centric, creating a happy and vibrant mood. Occasional suspended chords for playful tension.",
+    "Rhythm": "Fast-paced, danceable groove with driving drums, bass, and syncopated dholki beats.",
+    "Approximate BPM": "120-130 BPM",
+    "track-song Key": "C Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely C, G, Am, F, Dm, Em, with occasional suspended chords for energy.",
+    "Lyrics In Song": "चलो नाचू या संध्याकाळी,\nसुरांची गोडी घेऊन जाऊ,\nमित्रमंडळींसोबत मस्ती करू.",
+    "Full Lyrics In Song": "चलो नाचू या संध्याकाळी,\nसुरांची गोडी घेऊन जाऊ,\nमित्रमंडळींसोबत मस्ती करू,\nसूर्यास्तात रंग भरू,\nउत्सवाचे आनंद अनुभवू,\nहसरा चेहरा सजवू,\nसंगीताच्या तालावर झूमू,\nनृत्य करू रात्रीभर,\nउत्साही रिदमचा अनुभव घेऊ,\nसुख-दुःख विसरू आणि फक्त आनंद साजरा करू."
+  }

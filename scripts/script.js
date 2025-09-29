@@ -1,35 +1,19 @@
-#!/usr/bin/env node
-/**
- * scripts/index_normalized.js
- *
- * Usage:
- *   node scripts/index_normalized.js
- *
- * Reads raw JSON files from data/raw/, normalizes them in-memory,
- * and bulk indexes into Elasticsearch (index: process.env.INDEX).
- */
 
 const fs = require("fs");
 const path = require("path");
 const client = require("../src/lib/esClient");
 
-// Directories
 const RAW_DIR = path.join(__dirname, "..", "data", "raw");
 
-/**
- * Convert a string key to snake_case and lowercase.
- */
+
 function normalizeKey(key) {
   return key
-    .replace(/[^\w\s]/g, "") // remove punctuation
+    .replace(/[^\w\s]/g, "")
     .trim()
     .replace(/\s+/g, "_")
     .toLowerCase();
 }
 
-/**
- * Normalize a single document into a clean schema.
- */
 function normalizeDoc(doc, id) {
   const normalized = {
     id: id || doc.id || undefined,
@@ -37,10 +21,10 @@ function normalizeDoc(doc, id) {
     language: doc.language || doc["Language of song"] || null,
 
     lyrics:
+      doc["Full Lyrics In Song"] ||
       doc.lyrics ||
       doc["Lyrics"] ||
       doc["Lyrics In Song"] ||
-      doc["Full Lyrics In Song"] ||
       null,
 
     bpm: doc.bpm || doc["BPM"] || doc["Approximate BPM"] || null,
@@ -66,12 +50,10 @@ function normalizeDoc(doc, id) {
     else normalized.tags.push(...arr);
   });
 
-  // Also capture top-level "Instruments Used"
   if (doc["Instruments Used"]) {
     normalized.instruments.push(...doc["Instruments Used"]);
   }
 
-  // Fallback: collect other descriptive keys
   for (const [k, v] of Object.entries(doc)) {
     if (
       [
@@ -146,9 +128,6 @@ function loadNormalizedDocs() {
   return normalizedDocs;
 }
 
-/**
- * Bulk index docs into Elasticsearch
- */
 async function bulkIndex(docs) {
   const body = [];
 
@@ -161,16 +140,14 @@ async function bulkIndex(docs) {
 
   if (resp.errors) {
     const failedItems = resp.items.filter((item) => item.index && item.index.error);
-    console.error(`❌ Failed to index ${failedItems.length} documents`);
+    console.error(` Failed to index ${failedItems.length} documents`);
     failedItems.forEach((f) => console.error(f.index.error));
   } else {
-    console.log(`✅ Indexed ${docs.length} documents successfully`);
+    console.log(`Indexed ${docs.length} documents successfully`);
   }
 }
 
-/**
- * Main runner
- */
+
 async function run() {
   try {
     const exists = await client.indices.exists({ index: process.env.INDEX });

@@ -1,0 +1,173 @@
+  {
+    "Language of song": "Marathi",
+    "Song Title": "Chala Re Surya",
+    "Instruments Used": [
+        "Electric Guitar",
+        "Drums",
+        "Synthesizer",
+        "Tabla",
+        "Bass Guitar",
+        "Keyboard"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Marathi Pop",
+            "Dance Pop",
+            "Rock Fusion",
+            "Energetic Ballad",
+            "Festival Anthem",
+            "Youth Pop",
+            "Party Pop",
+            "Bollywood Influenced",
+            "Contemporary Marathi",
+            "Pop-Rock"
+        ],
+        "Mood & Vibe": [
+            "Excited",
+            "Energetic",
+            "Playful",
+            "Upbeat",
+            "Optimistic",
+            "Joyful",
+            "Danceable",
+            "Celebratory",
+            "Fun",
+            "Vibrant"
+        ],
+        "Instrumentation": [
+            "Electric Guitar Riffs",
+            "Dynamic Drums",
+            "Synth Pads",
+            "Tabla Beats",
+            "Bass Guitar",
+            "Keyboard Melody",
+            "Percussion-driven",
+            "Layered Vocals",
+            "Electronic Effects",
+            "Full Band Sound"
+        ],
+        "Vocal Style": [
+            "Energetic Male Vocals",
+            "Melodic",
+            "Expressive",
+            "Upbeat Delivery",
+            "Playful",
+            "Storytelling",
+            "Harmonized Backing Vocals",
+            "Cheerful",
+            "Slightly husky",
+            "Fun/Party Style"
+        ],
+        "Tempo & Rhythm": [
+            "Fast Tempo",
+            "Driving Beat",
+            "Danceable Groove",
+            "Steady Rhythm",
+            "Energetic Percussion",
+            "Syncopated Drums",
+            "Upbeat Flow",
+            "Pulsating Energy",
+            "Controlled Dynamics",
+            "Rapid Crescendos"
+        ],
+        "Themes": [
+            "Joy",
+            "Celebration",
+            "Festivity",
+            "Youthful Energy",
+            "Friendship",
+            "Fun Adventures",
+            "Carefree Life",
+            "Romantic Playfulness",
+            "Dance Party",
+            "Optimism"
+        ],
+        "Use Case": [
+            "Party Soundtrack",
+            "Wedding Sangeet",
+            "Youth Events",
+            "Dance Videos",
+            "Gym Workout Music",
+            "Driving Music",
+            "Festival Scenes",
+            "Late-night Drives",
+            "Social Media Shorts",
+            "Fun Personal Listening"
+        ],
+        "Sound Characteristics": [
+            "Bright Production",
+            "Punchy Drums",
+            "Upfront Vocals",
+            "Energetic Mix",
+            "Layered Instruments",
+            "Dynamic Swells",
+            "Clean Synths",
+            "Full Soundstage",
+            "Catchy Hooks",
+            "Vibrant Tones"
+        ],
+        "Cultural Context": [
+            "Marathi Pop Music",
+            "Contemporary Indian Pop",
+            "Folk Fusion Elements",
+            "Bollywood Influences",
+            "Festival Music",
+            "Youth Culture",
+            "Energetic Storytelling",
+            "Regional Indian Pop",
+            "Dance Fusion",
+            "Modern Production Techniques"
+        ]
+    },
+    "production style": "High-energy and bright with punchy percussion, electric guitar riffs, and lively synths. Vocals are front and center, with layered harmonies enhancing the celebratory feel.",
+    "edit_pacing": [
+        "fast_build",
+        "energetic_transitions",
+        "high_crescendos",
+        "pulsating_rhythms",
+        "dynamic_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Jester (Playful, fun, energetic)",
+        "The Lover (Romantic, joyful)",
+        "The Hero (Bold, lively, adventurous)"
+    ],
+    "Tags based on Lyrics": [
+        "celebration",
+        "joy",
+        "youth energy",
+        "friendship",
+        "fun moments",
+        "dance",
+        "festive mood",
+        "playfulness",
+        "optimism",
+        "carefree attitude"
+    ],
+    "Entities in Lyrics": [
+        "सूर्य (sun)",
+        "नृत्य (dance)",
+        "संगीत (music)",
+        "मित्र (friend)",
+        "उत्सव (festival)",
+        "हसरा चेहरा (smiling face)",
+        "रंग (color)",
+        "मस्ती (fun)",
+        "ताल (beat)",
+        "उत्साही रिदम (energetic rhythm)"
+    ],
+    "Melody": "Catchy and lively, driven by male vocals and electric guitar with bright synth lines. Strong hooks and rhythmic flow emphasize energy.",
+    "Harmony": "Major chords create uplifting and celebratory mood. Occasional suspended chords add tension and excitement.",
+    "Rhythm": "Fast, energetic groove with driving drums, tabla accents, and pulsating basslines for danceable rhythm.",
+    "Approximate BPM": "125-135 BPM",
+    "track-song Key": "D Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely D, A, Bm, G, E, F#m with suspended chords for excitement.",
+    "Lyrics In Song": "चला रे सूर्य उगवला,\nनृत्य करू तालावर,\nमित्रमंडळींसोबत मस्ती करू.",
+    "Full Lyrics In Song": "चला रे सूर्य उगवला,\nनृत्य करू तालावर,\nमित्रमंडळींसोबत मस्ती करू,\nसंगीताच्या रंगात रंगू,\nउत्सव साजरा करू,\nहसरा चेहरा सजवू,\nरात्रीभर झूमू,\nउत्साही रिदम अनुभवू,\nजीवनाचा आनंद साजरा करू,\nसगळ्यांशी प्रेमाने झूमू."
+  }

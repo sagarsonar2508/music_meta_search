@@ -1,0 +1,173 @@
+  {
+    "Language of song": "Bengali",
+    "Song Title": "Cholo Na Nache",
+    "Instruments Used": [
+        "Electric Guitar",
+        "Drums",
+        "Bass Guitar",
+        "Synthesizer",
+        "Dhol",
+        "Keyboard"
+    ],
+    "category wise tags": {
+        "Genre & Subgenre": [
+            "Bengali Pop",
+            "Dance Pop",
+            "Electro-Pop",
+            "Festival Anthem",
+            "Youth Pop",
+            "Party Anthem",
+            "Contemporary Bengali",
+            "Pop-Rock",
+            "Bollywood-influenced",
+            "Upbeat Ballad"
+        ],
+        "Mood & Vibe": [
+            "Energetic",
+            "Excited",
+            "Joyful",
+            "Playful",
+            "Upbeat",
+            "Celebratory",
+            "Fun",
+            "Danceable",
+            "Optimistic",
+            "Vibrant"
+        ],
+        "Instrumentation": [
+            "Electric Guitar Riffs",
+            "Punchy Drums",
+            "Synth Leads",
+            "Bass Guitar",
+            "Layered Vocals",
+            "Keyboard Arpeggios",
+            "Percussion-driven",
+            "Dhol Rhythms",
+            "Electronic Effects",
+            "Full Band Sound"
+        ],
+        "Vocal Style": [
+            "Energetic Male Vocals",
+            "Melodic",
+            "Playful",
+            "Upbeat Delivery",
+            "Expressive",
+            "Storytelling",
+            "Harmonized Backing Vocals",
+            "Cheerful",
+            "Dynamic Vocals",
+            "Youthful Energy"
+        ],
+        "Tempo & Rhythm": [
+            "Fast Tempo",
+            "Driving Beat",
+            "Danceable Groove",
+            "Steady Rhythm",
+            "Energetic Percussion",
+            "Syncopated Drums",
+            "Pulsating Energy",
+            "Upbeat Flow",
+            "Rapid Crescendos",
+            "Controlled Dynamics"
+        ],
+        "Themes": [
+            "Joy",
+            "Celebration",
+            "Friendship",
+            "Youthful Energy",
+            "Dance",
+            "Optimism",
+            "Fun Adventures",
+            "Romantic Playfulness",
+            "Carefree Life",
+            "Excitement"
+        ],
+        "Use Case": [
+            "Party Soundtrack",
+            "Festival Playlist",
+            "Wedding Reception",
+            "Youth Events",
+            "Dance Videos",
+            "Gym Workout Music",
+            "Driving Music",
+            "Social Media Shorts",
+            "Late-night Drives",
+            "Energetic Personal Listening"
+        ],
+        "Sound Characteristics": [
+            "Bright Production",
+            "Punchy Drums",
+            "Upfront Vocals",
+            "Energetic Mix",
+            "Layered Instruments",
+            "Dynamic Swells",
+            "Clean Synths",
+            "Full Soundstage",
+            "Catchy Hooks",
+            "Vibrant Tones"
+        ],
+        "Cultural Context": [
+            "Bengali Pop Music",
+            "Contemporary Indian Pop",
+            "Festival Music",
+            "Youth Culture",
+            "Bollywood Influences",
+            "Dance Culture",
+            "Modern Production Techniques",
+            "Catchy Hooks",
+            "Pop-Rock Elements",
+            "Energetic Storytelling"
+        ]
+    },
+    "production style": "Bright, polished, and energetic. Focus on electric guitar, synth hooks, and punchy drums. Vocals are upfront, expressive, and playful, creating a celebratory, danceable mood.",
+    "edit_pacing": [
+        "fast_build",
+        "energetic_transitions",
+        "high_crescendos",
+        "pulsating_rhythms",
+        "dynamic_unfolding"
+    ],
+    "compliance": [
+        "no_explicit",
+        "family_safe",
+        "universally_relatable_emotions"
+    ],
+    "brand archetype": [
+        "The Jester (Playful, fun, energetic)",
+        "The Lover (Romantic, joyful)",
+        "The Hero (Bold, lively, adventurous)"
+    ],
+    "Tags based on Lyrics": [
+        "celebration",
+        "dance",
+        "friendship",
+        "youth energy",
+        "fun",
+        "joy",
+        "optimism",
+        "romantic playfulness",
+        "carefree attitude",
+        "energy"
+    ],
+    "Entities in Lyrics": [
+        "নাচ (dance)",
+        "মুক্ত আকাশ (open sky)",
+        "বন্ধুরা (friends)",
+        "সঙ্গীত (music)",
+        "উৎসব (festival)",
+        "রঙিন আলো (colorful lights)",
+        "সন্ধ্যা (evening)",
+        "উচ্ছ্বাস (excitement)",
+        "গানের তাল (beat of music)",
+        "উল্লাস (joy)"
+    ],
+    "Melody": "Upbeat, catchy, driven by male vocals and electric guitar/synth hooks. Danceable rhythm and playful vocal phrasing emphasize joy.",
+    "Harmony": "Major chords create energetic, happy feel. Occasional suspended chords add tension and excitement.",
+    "Rhythm": "Fast, danceable groove with driving drums, bass, and Dhol rhythms for high-energy movement.",
+    "Approximate BPM": "125-135 BPM",
+    "track-song Key": "G Major",
+    "track-timeSignature": "4/4",
+    "Chords": "Likely G, D, Em, C, Am with occasional suspended chords for excitement.",
+    "Lyrics In Song": "চলো না নাচি এই সন্ধ্যায়,\nবন্ধুদের সাথে গান বাজাই,\nউৎসব শুরু হোক আজ রাতায়।",
+    "Full Lyrics In Song": "চলো না নাচি এই সন্ধ্যায়,\nবন্ধুদের সাথে গান বাজাই,\nউৎসব শুরু হোক আজ রাতায়।\nরঙিন আলোয় আমাদের ডুবাই,\nউচ্ছ্বাসে সবাই হাসি,\nড্রাম ও ডলির তাল ধরে,\nপৃথিবীকে ভুলে আমরা ঝাঁপাই,\nমুক্ত আকাশের নীচে উল্লাস করি,\nনাচের আনন্দে রাত কেটে যায়।"
+  }
