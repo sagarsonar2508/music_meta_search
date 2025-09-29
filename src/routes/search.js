@@ -72,7 +72,6 @@ router.get("/details/:id", async (req, res, next) => {
             index: process.env.INDEX,
             id: id
         });
-        console.log(response._source);
         res.render("details", {
             data: response._source
         });
