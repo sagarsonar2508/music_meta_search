@@ -3,6 +3,11 @@ const path = require("path");
 const helmet = require("helmet");
 require("dotenv").config();
 
+const { File } = require('formdata-node');
+if (typeof global.File === "undefined") {
+  global.File = File;
+}
+
 const searchRouter = require("./src/routes/search");
 
 const app = express();
